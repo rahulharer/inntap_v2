@@ -1,0 +1,257 @@
+.login_blk_parnt{
+    width: 100%;
+    height: 100%;
+    display: table;
+    padding: 12px;
+    background: url($tile_background);
+    .login_inr_contnr {
+        height: 100%;
+        display: table-cell;
+        vertical-align: middle;
+        .error_msg_parnt{
+            max-width: 400px;
+            margin: 0 auto 10px;
+			padding: 10px;
+        }        
+    }
+    .login_cnt_blk{
+        max-width: 400px;
+        border-radius: $border-radius;
+        background: $white-color;
+        margin: 0 auto;
+        border: 1px solid $border-color;
+        padding: 30px 15px;
+        text-align: center;
+        select{
+            width: 242px;
+            height: 45px;
+            border: 1px solid $font-color;
+            border-radius: $border-radius;
+            padding: 5px;
+            box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.3); 
+            font-size: 1.5rem;
+            display: inline-block;
+        }
+    }
+}
+
+.login_outlet_icn{
+    max-width: 170px;
+    height: 100%;
+    width: 100%;
+    border-radius: $border-radius;
+    cursor: pointer;
+    box-shadow: 3px 4px 5px 0px rgba(158, 146, 134, 0.75); 
+    display: inline-block;
+    margin-bottom: 15px;
+    a{
+        font-size: 1.125rem;
+        // line-height: 2rem;
+        color: $white-color;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 110px 15px 15px;
+        display: inline-block;   
+        background-color: transparent;     
+        border: none;
+        &:focus{
+            background-color: transparent;
+            color: $white-color;
+        }
+    }
+}
+
+.blue_main_parnt{   
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#448181+1,67b3b3+100 */
+    background: rgb(68,129,129); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(68,129,129,1) 1%, rgba(103,179,179,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(68,129,129,1) 1%,rgba(103,179,179,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(68,129,129,1) 1%,rgba(103,179,179,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#448181', endColorstr='#67b3b3',GradientType=0 ); /* IE6-9 */ 
+}
+
+.pink_main_parnt{
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d08a8e+1,f6afb3+100 */
+  background: rgb(208,138,142); /* Old browsers */
+  background: -moz-linear-gradient(top, rgba(208,138,142,1) 1%, rgba(246,175,179,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(208,138,142,1) 1%,rgba(246,175,179,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(208,138,142,1) 1%,rgba(246,175,179,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d08a8e', endColorstr='#f6afb3',GradientType=0 ); /* IE6-9 */
+}
+
+.purple_main_parnt{
+   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#8394a7+2,8dacce+100 */
+   background: rgb(131,148,167); /* Old browsers */
+   background: -moz-linear-gradient(top, rgba(131,148,167,1) 2%, rgba(141,172,206,1) 100%); /* FF3.6-15 */
+   background: -webkit-linear-gradient(top, rgba(131,148,167,1) 2%,rgba(141,172,206,1) 100%); /* Chrome10-25,Safari5.1-6 */
+   background: linear-gradient(to bottom, rgba(131,148,167,1) 2%,rgba(141,172,206,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8394a7', endColorstr='#8dacce',GradientType=0 ); /* IE6-9 */
+}
+
+.yellow_main_parnt{
+   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#df9e47+2,f8b862+100 */
+   background: rgb(223,158,71); /* Old browsers */
+   background: -moz-linear-gradient(top, rgba(223,158,71,1) 2%, rgba(248,184,98,1) 100%); /* FF3.6-15 */
+   background: -webkit-linear-gradient(top, rgba(223,158,71,1) 2%,rgba(248,184,98,1) 100%); /* Chrome10-25,Safari5.1-6 */
+   background: linear-gradient(to bottom, rgba(223,158,71,1) 2%,rgba(248,184,98,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#df9e47', endColorstr='#f8b862',GradientType=0 ); /* IE6-9 */
+}
+
+.orange_main_parnt{
+   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#da9a7b+2,e8b399+100 */
+   background: rgb(218,154,123); /* Old browsers */
+   background: -moz-linear-gradient(top, rgba(218,154,123,1) 2%, rgba(232,179,153,1) 100%); /* FF3.6-15 */
+   background: -webkit-linear-gradient(top, rgba(218,154,123,1) 2%,rgba(232,179,153,1) 100%); /* Chrome10-25,Safari5.1-6 */
+   background: linear-gradient(to bottom, rgba(218,154,123,1) 2%,rgba(232,179,153,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#da9a7b', endColorstr='#e8b399',GradientType=0 ); /* IE6-9 */
+}
+
+.green_main_parnt{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#75b7ae+2,91d4ca+100 */
+    background: rgb(117,183,174); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(117,183,174,1) 2%, rgba(145,212,202,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(117,183,174,1) 2%,rgba(145,212,202,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(117,183,174,1) 2%,rgba(145,212,202,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#75b7ae', endColorstr='#91d4ca',GradientType=0 ); /* IE6-9 */
+}
+
+.pavilion_icn{
+    position: relative;
+    &:after
+    {
+        position: absolute;
+        content: "";
+        background: url($sprite) no-repeat;
+        background-position: -42px -312px;
+        width:50px;
+        height:82px;
+        left: 0;
+        right: 0;
+        top: 15px;
+        margin: 0 auto;
+    }
+    span{
+        -webkit-box-orient: vertical;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: normal;
+    }
+}
+
+.keypad_main_blk{
+    position: relative;
+    max-width: 254px;
+    margin: auto;
+    text-align: center;
+    input{
+        width: 242px;
+        height: 45px;
+        border: 1px solid $font-color;
+        border-radius: $border-radius;
+        padding: 5px;
+        box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.3); 
+        font-size: 1.5rem;
+        text-align: left;
+    }
+    table {
+        border-collapse: separate;
+        border-spacing: 6px;
+    }
+    .fuzy-numKey{
+        position: relative;
+        z-index: 0;
+    }
+}
+
+.fuzy-numKey-lightgray, .fuzy-numKey-darkgray{
+    background: #4A4A4A !important;
+}
+
+.fuzy-numKey-lightgray:hover, .fuzy-numKey-darkgray:hover, .fuzy-numKey-active:active{
+    background: #3e3e3e !important;
+}
+
+.fuzy-numKey td{
+    font-size: 1.5rem;
+    font-family: $main-font !important;
+    font-weight: normal !important;
+    padding: 6px !important;
+    border: 1px solid $font-color;
+    cursor: pointer;
+    position: relative;
+    border-radius: $border-radius !important;
+}
+
+.fuzy-numKey div{
+    display: none;
+}
+.fuzy-numKey-darkgray.fuzy-numKey-active.less_cls:after {
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 2px;
+    left: 0;
+    right: 0;
+    display: inline-block;
+    background: #ffffff;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+}
+
+
+.digitalKeyboardContainer{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    margin: 9px 0 0;
+}
+
+.opng_lgn_btn{
+    width: 26px; 
+    height: 26px;
+    display: inline-block;
+    position: relative;
+    vertical-align: text-bottom;
+    &:after {
+        position: absolute;
+        content: "";
+        width: 28px; 
+        height: 27px;
+        left: 0;
+        right:0;
+        top: 0;
+        background: url($sprite) no-repeat;
+        background-position: -510px -261px;
+    }
+}
+
+.shift_lgn_btn{                  
+    width: 25px; 
+    height: 25px;
+    display: inline-block;
+    position: relative;
+    vertical-align: text-bottom;
+    &:after{
+        position: absolute;
+        content: "";
+        width: 25px; 
+        height: 25px;
+        left: 0;
+        right:0;
+        top: 0;
+        background: url($sprite) no-repeat;
+        background-position: -482px -261px;
+    }
+}
+.login_cnt_blk .button_blk{
+    padding: 0 5px;
+    button{
+        width: 100%;
+		display: inline-block;
+        height: 50px;
+        margin: 0;
+    }
+}

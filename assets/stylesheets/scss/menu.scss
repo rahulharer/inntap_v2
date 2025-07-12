@@ -1,0 +1,112 @@
+@import '_variables';
+
+html{
+    font-size: 20px;
+}
+body{
+    font-family: $main-font;
+}
+html, body{
+    height: 100vh;
+}
+.main_parnt{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+}
+header{
+    background-color: red;
+    height: 95px;
+    // height: ca;
+    
+}
+
+.dark-header{
+    background: rgb(57,57,57); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(57,57,57,1) 0%, rgba(85,82,82,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(57,57,57,1) 0%,rgba(85,82,82,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(57,57,57,1) 0%,rgba(85,82,82,1) 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#393939', endColorstr='#555252',GradientType=0 ); 
+    height: 50px;
+    padding: 0 15px;
+    h1{
+        font-size: 1.5rem;
+        color: $white-color;
+        margin-bottom: 0;
+    }
+    .row{
+        height: 100%;
+        align-items: center;
+    }
+}
+
+.user_login_info{
+    width: 250px;
+    height: 50px;
+    color: $white-color;
+    text-align: center;
+    float: right;
+    padding-top: 3px;
+    h4{
+        font-size: 0.85rem;  
+        font-style: italic;
+        margin: 0;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    span{
+        display: block;
+        font-size: 0.8rem;    
+        font-style: normal;              
+    }
+}
+.resp_menu{
+    width: 50px;
+    height: 50px;
+    display: none;
+    color: $white-color;
+    padding: 0;
+}
+.lock_options
+{
+    float: right;
+    height: 50px;
+    ul {
+        list-style-type: none;
+        margin: 0;
+        height: 100%;
+        padding: 0;
+        li{
+            width: 80px;
+            height: 50px;  
+            float: left;
+            position: relative;
+            border-left: 1px solid #665d5d;
+            cursor: pointer;
+            text-align: center;
+            padding-top: 3px;      
+            a{
+                width: 100%;
+                height: 100%;
+                font-size: 0.6rem;
+                line-height: 0.6rem;   
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                color: $white-color !important;
+                i{
+                    display: block;
+                    font-size: 0.85rem;
+                    margin-bottom: 2px;
+                }          
+            }
+        }            
+    }
+}
+
+.light-grey-header{
+    background-color: #f0eeee;
+    height: 45px;
+}

@@ -1,0 +1,144 @@
+/* line 3, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/menu.scss */
+html {
+  font-size: 20px;
+}
+
+/* line 6, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/menu.scss */
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* line 9, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/menu.scss */
+html, body {
+  height: 100vh;
+}
+
+/* line 12, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/menu.scss */
+.main_parnt {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* line 18, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/menu.scss */
+header {
+  background-color: red;
+  height: 95px;
+}
+
+/* line 25, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/menu.scss */
+.dark-header {
+  background: #393939;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #393939 0%, #555252 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #393939 0%, #555252 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #393939 0%, #555252 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#393939', endColorstr='#555252',GradientType=0 );
+  height: 50px;
+  padding: 0 15px;
+}
+
+/* line 33, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/menu.scss */
+.dark-header h1 {
+  font-size: 1.5rem;
+  color: #ffffff;
+  margin-bottom: 0;
+}
+
+/* line 38, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/menu.scss */
+.dark-header .row {
+  height: 100%;
+  align-items: center;
+}
+
+/* line 44, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/menu.scss */
+.user_login_info {
+  width: 250px;
+  height: 50px;
+  color: #ffffff;
+  text-align: center;
+  float: right;
+  padding-top: 3px;
+}
+
+/* line 51, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/menu.scss */
+.user_login_info h4 {
+  font-size: 0.85rem;
+  font-style: italic;
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* line 59, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/menu.scss */
+.user_login_info span {
+  display: block;
+  font-size: 0.8rem;
+  font-style: normal;
+}
+
+/* line 65, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/menu.scss */
+.resp_menu {
+  width: 50px;
+  height: 50px;
+  display: none;
+  color: #ffffff;
+  padding: 0;
+}
+
+/* line 72, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/menu.scss */
+.lock_options {
+  float: right;
+  height: 50px;
+}
+
+/* line 76, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/menu.scss */
+.lock_options ul {
+  list-style-type: none;
+  margin: 0;
+  height: 100%;
+  padding: 0;
+}
+
+/* line 81, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/menu.scss */
+.lock_options ul li {
+  width: 80px;
+  height: 50px;
+  float: left;
+  position: relative;
+  border-left: 1px solid #665d5d;
+  cursor: pointer;
+  text-align: center;
+  padding-top: 3px;
+}
+
+/* line 90, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/menu.scss */
+.lock_options ul li a {
+  width: 100%;
+  height: 100%;
+  font-size: 0.6rem;
+  line-height: 0.6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: #ffffff !important;
+}
+
+/* line 99, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/menu.scss */
+.lock_options ul li a i {
+  display: block;
+  font-size: 0.85rem;
+  margin-bottom: 2px;
+}
+
+/* line 109, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/menu.scss */
+.light-grey-header {
+  background-color: #f0eeee;
+  height: 45px;
+}
+
+/*# sourceMappingURL=menu.css.map */

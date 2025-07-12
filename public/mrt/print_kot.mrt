@@ -1,0 +1,1135 @@
+{
+  "ReportVersion": "2020.1.1",
+  "ReportGuid": "baed2e66b9275f7b23645dfd0ea2dc0c",
+  "ReportName": "Report",
+  "ReportAlias": "Report",
+  "ReportFile": "print_kot.mrt",
+  "ReportCreated": "/Date(1541942164000+0530)/",
+  "ReportChanged": "/Date(1541942164000+0530)/",
+  "EngineVersion": "EngineV2",
+  "CalculationMode": "Interpretation",
+  "ReportUnit": "Centimeters",
+  "PreviewSettings": 268435455,
+  "Dictionary": {
+    "Variables": {
+      "0": {
+        "Name": "CompanyName",
+        "DialogInfo": {
+          "DateTimeType": "DateAndTime"
+        },
+        "Alias": "CompanyName",
+        "Type": "System.String"
+      },
+      "1": {
+        "Name": "CgstDeclaration",
+        "DialogInfo": {
+          "DateTimeType": "DateAndTime"
+        },
+        "Alias": "CgstDeclaration",
+        "Type": "System.String"
+      },
+      "2": {
+        "Name": "Declaration",
+        "DialogInfo": {
+          "DateTimeType": "DateAndTime"
+        },
+        "Alias": "Declaration",
+        "Type": "System.String"
+      },
+      "3": {
+        "Name": "GSTN_NO",
+        "DialogInfo": {
+          "DateTimeType": "DateAndTime"
+        },
+        "Alias": "GSTN_NO",
+        "Type": "System.String"
+      },
+      "4": {
+        "Name": "PanNo",
+        "DialogInfo": {
+          "DateTimeType": "DateAndTime"
+        },
+        "Alias": "PanNo",
+        "Type": "System.String"
+      },
+      "5": {
+        "Name": "HsnNo",
+        "DialogInfo": {
+          "DateTimeType": "DateAndTime"
+        },
+        "Alias": "HsnNo",
+        "Type": "System.String"
+      },
+      "6": {
+        "Name": "CompanyAddress",
+        "DialogInfo": {
+          "DateTimeType": "DateAndTime"
+        },
+        "Alias": "CompanyAddress",
+        "Type": "System.String"
+      },
+      "7": {
+        "Name": "CompanyContact",
+        "DialogInfo": {
+          "DateTimeType": "DateAndTime"
+        },
+        "Alias": "CompanyContact",
+        "Type": "System.String"
+      },
+      "8": {
+        "Name": "CompanyEmail",
+        "DialogInfo": {
+          "DateTimeType": "DateAndTime"
+        },
+        "Alias": "CompanyEmail",
+        "Type": "System.String"
+      },
+      "9": {
+        "Name": "CheckHeaderLine1",
+        "DialogInfo": {
+          "DateTimeType": "DateAndTime"
+        },
+        "Alias": "CheckHeaderLine1",
+        "Type": "System.String"
+      },
+      "10": {
+        "Name": "CheckHeaderLine2",
+        "DialogInfo": {
+          "DateTimeType": "DateAndTime"
+        },
+        "Alias": "CheckHeaderLine2",
+        "Type": "System.String"
+      },
+      "11": {
+        "Value": "0",
+        "Name": "DuplicateCopy",
+        "DialogInfo": {
+          "DateTimeType": "DateAndTime"
+        },
+        "Alias": "DuplicateCopy",
+        "Type": "System.Int32"
+      },
+      "12": {
+        "Value": "0",
+        "Name": "DuplicateCopy2",
+        "DialogInfo": {
+          "DateTimeType": "DateAndTime"
+        },
+        "Alias": "DuplicateCopy2",
+        "Type": "System.Int32"
+      },
+      "13": {
+        "Name": "RoundOffInd",
+        "DialogInfo": {
+          "DateTimeType": "DateAndTime"
+        },
+        "Alias": "RoundOffInd",
+        "Type": "System.String"
+      }
+    },
+    "DataSources": {
+      "0": {
+        "Ident": "StiDataTableSource",
+        "Name": "kot_report",
+        "Alias": "kot_report",
+        "Columns": {
+          "0": {
+            "Name": "check_no",
+            "Index": -1,
+            "NameInSource": "check_no",
+            "Alias": "check_no",
+            "Type": "System.String"
+          },
+          "1": {
+            "Name": "covers",
+            "Index": -1,
+            "NameInSource": "covers",
+            "Alias": "covers",
+            "Type": "System.Decimal"
+          },
+          "2": {
+            "Name": "guest_name",
+            "Index": -1,
+            "NameInSource": "guest_name",
+            "Alias": "guest_name",
+            "Type": "System.String"
+          },
+          "3": {
+            "Name": "parcel",
+            "Index": -1,
+            "NameInSource": "parcel",
+            "Alias": "parcel",
+            "Type": "System.String"
+          },
+          "4": {
+            "Name": "pos_check_details",
+            "Index": -1,
+            "NameInSource": "pos_check_details",
+            "Alias": "pos_check_details",
+            "Type": "System.String"
+          },
+          "5": {
+            "Name": "restaurant_name",
+            "Index": -1,
+            "NameInSource": "restaurant_name",
+            "Alias": "restaurant_name",
+            "Type": "System.String"
+          },
+          "6": {
+            "Name": "server",
+            "Index": -1,
+            "NameInSource": "server",
+            "Alias": "server",
+            "Type": "System.String"
+          },
+          "7": {
+            "Name": "table_code",
+            "Index": -1,
+            "NameInSource": "table_code",
+            "Alias": "table_code",
+            "Type": "System.String"
+          },
+          "8": {
+            "Name": "void_kot",
+            "Index": -1,
+            "NameInSource": "void_kot",
+            "Alias": "void_kot",
+            "Type": "System.String"
+          },
+          "9": {
+            "Name": "void_dash",
+            "Index": -1,
+            "NameInSource": "void_dash",
+            "Alias": "void_dash",
+            "Type": "System.String"
+          },
+          "10": {
+            "Name": "void_reason",
+            "Index": -1,
+            "NameInSource": "void_reason",
+            "Alias": "void_reason",
+            "Type": "System.String"
+          }
+        },
+        "NameInSource": "kot_report.kot_report"
+      },
+      "1": {
+        "Ident": "StiDataTableSource",
+        "Name": "kot_report_pos_check_details",
+        "Alias": "kot_report_pos_check_details",
+        "Columns": {
+          "0": {
+            "Name": "business_date",
+            "Index": -1,
+            "NameInSource": "business_date",
+            "Alias": "business_date",
+            "Type": "System.String"
+          },
+          "1": {
+            "Name": "item_description",
+            "Index": -1,
+            "NameInSource": "item_description",
+            "Alias": "item_description",
+            "Type": "System.String"
+          },
+          "2": {
+            "Name": "kitchen_name",
+            "Index": -1,
+            "NameInSource": "kitchen_name",
+            "Alias": "kitchen_name",
+            "Type": "System.String"
+          },
+          "3": {
+            "Name": "kot_no",
+            "Index": -1,
+            "NameInSource": "kot_no",
+            "Alias": "kot_no",
+            "Type": "System.String"
+          },
+          "4": {
+            "Name": "pos_kitchen_id",
+            "Index": -1,
+            "NameInSource": "pos_kitchen_id",
+            "Alias": "pos_kitchen_id",
+            "Type": "System.Decimal"
+          },
+          "5": {
+            "Name": "quantity",
+            "Index": -1,
+            "NameInSource": "quantity",
+            "Alias": "quantity",
+            "Type": "System.Decimal"
+          },
+          "6": {
+            "Name": "relationId",
+            "Index": -1,
+            "NameInSource": "relationId",
+            "Alias": "relationId",
+            "Type": "System.String"
+          },
+          "7": {
+            "Name": "system_time",
+            "Index": -1,
+            "NameInSource": "system_time",
+            "Alias": "system_time",
+            "Type": "System.String"
+          },
+          "8": {
+            "Name": "void_reason",
+            "Index": -1,
+            "NameInSource": "void_reason",
+            "Alias": "void_reason",
+            "Type": "System.String"
+          },
+          "9": {
+            "Name": "pos_item_id",
+            "Index": -1,
+            "NameInSource": "pos_item_id",
+            "Alias": "pos_item_id",
+            "Type": "System.String"
+          }
+        },
+        "NameInSource": "kot_report.kot_report_pos_check_details"
+      }
+    },
+    "Databases": {
+      "0": {
+        "Ident": "StiJsonDatabase",
+        "Name": "kot_report",
+        "Alias": "kot_report"
+      }
+    },
+    "Relations": {
+      "0": {
+        "Name": "kot_report",
+        "ChildColumns": {
+          "0": "relationId"
+        },
+        "ParentColumns": {
+          "0": "pos_check_details"
+        },
+        "NameInSource": "kot_report_pos_check_details",
+        "Alias": "kot_report",
+        "IsCloud": null,
+        "ParentSource": "kot_report",
+        "ChildSource": "kot_report_pos_check_details"
+      }
+    }
+  },
+  "Pages": {
+    "0": {
+      "Ident": "StiPage",
+      "Name": "Page1",
+      "Guid": "0aa2f8e1b62b5464e8674a8fb9cf3413",
+      "Interaction": {
+        "Ident": "StiInteraction"
+      },
+      "Border": ";;2;;;;;solid:Black",
+      "Brush": "solid:Transparent",
+      "Components": {
+        "0": {
+          "Ident": "StiHeaderBand",
+          "Name": "HeaderBand2",
+          "ClientRectangle": "0,0.4,7.3,6.4",
+          "Interaction": {
+            "Ident": "StiInteraction"
+          },
+          "Border": ";;;;;;;solid:Black",
+          "Brush": "solid:Transparent",
+          "Components": {
+            "0": {
+              "Ident": "StiText",
+              "Name": "Text9",
+              "Guid": "53609700fbde10b5b61eba9302459f6d",
+              "ClientRectangle": "0,1.8,1.6,0.4",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "KOT NO"
+              },
+              "Font": "Courier New;12;Bold;",
+              "Border": ";;;;;;;solid:Black",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:Black",
+              "Margins": {
+                "Left": 1,
+                "Right": 0,
+                "Top": 0,
+                "Bottom": 0
+              },
+              "Type": "Expression"
+            },
+            "1": {
+              "Ident": "StiText",
+              "Name": "Text11",
+              "Guid": "b71bd1093e5ba728087a2a7d406643a1",
+              "ClientRectangle": "0,2.21,1.6,0.4",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "Date "
+              },
+              "Font": "Courier New;12;Bold;",
+              "Border": ";;;;;;;solid:Black",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:Black",
+              "Margins": {
+                "Left": 1,
+                "Right": 0,
+                "Top": 0,
+                "Bottom": 0
+              },
+              "Type": "Expression"
+            },
+            "2": {
+              "Ident": "StiText",
+              "Name": "Text16",
+              "Guid": "2b8fc6cb0acb2476ab73d51971c4bd20",
+              "ClientRectangle": "0,5.2,1,0.61",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "Qty"
+              },
+              "VertAlignment": "Center",
+              "Font": "Courier New;12;Bold;",
+              "Border": "Top, Bottom;;;DashDot;;;;solid:0,0,0",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:Black",
+              "TextOptions": {
+                "WordWrap": true
+              },
+              "Margins": {
+                "Left": 1,
+                "Right": 0,
+                "Top": 0,
+                "Bottom": 0
+              },
+              "Type": "Expression"
+            },
+            "3": {
+              "Ident": "StiText",
+              "Name": "Text6",
+              "Guid": "111360b07b6183bf870506d79f226e53",
+              "ClientRectangle": "2,2.21,2.59,0.4",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{kot_report_pos_check_details.business_date}"
+              },
+              "Font": "Courier New;12;Bold;",
+              "Border": ";;;;;;;solid:Black",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:Black",
+              "Margins": {
+                "Left": 1,
+                "Right": 0,
+                "Top": 0,
+                "Bottom": 0
+              },
+              "Type": "Expression"
+            },
+            "4": {
+              "Ident": "StiText",
+              "Name": "Text1",
+              "Guid": "bd0da2b21588ffb12cd4a76d59972d71",
+              "ClientRectangle": "2,1.8,2.6,0.4",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{kot_report_pos_check_details.kot_no} "
+              },
+              "Font": "Courier New;12;Bold;",
+              "Border": ";;;;;;;solid:Black",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:Black",
+              "Margins": {
+                "Left": 2,
+                "Right": 0,
+                "Top": 0,
+                "Bottom": 0
+              },
+              "Type": "Expression"
+            },
+            "5": {
+              "Ident": "StiText",
+              "Name": "Text17",
+              "Guid": "a8e707997c7dba8aef2fe8870058f178",
+              "ClientRectangle": "1,5.2,6.21,0.61",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "Item Details"
+              },
+              "VertAlignment": "Center",
+              "Font": "Courier New;12;Bold;",
+              "Border": "Top, Bottom;;;DashDot;;;;solid:0,0,0",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:Black",
+              "Margins": {
+                "Left": 3,
+                "Right": 0,
+                "Top": 0,
+                "Bottom": 0
+              },
+              "Type": "Expression"
+            },
+            "6": {
+              "Ident": "StiText",
+              "Name": "Text3",
+              "Guid": "e62a5299b051a67d988ed80c6ea75da1",
+              "ClientRectangle": "0,2.6,1.6,0.4",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "Time "
+              },
+              "Font": "Courier New;12;Bold;",
+              "Border": ";;;;;;;solid:Black",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:Black",
+              "Margins": {
+                "Left": 1,
+                "Right": 0,
+                "Top": 0,
+                "Bottom": 0
+              },
+              "Type": "Expression"
+            },
+            "7": {
+              "Ident": "StiText",
+              "Name": "Text36",
+              "Guid": "1b809a4344b50360f3f3a06a9dd3cf97",
+              "ClientRectangle": "2,2.6,2.39,0.4",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{kot_report_pos_check_details.system_time}"
+              },
+              "Font": "Courier New;12;Bold;",
+              "Border": ";;;;;;;solid:Black",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:Black",
+              "Margins": {
+                "Left": 1,
+                "Right": 0,
+                "Top": 0,
+                "Bottom": 0
+              },
+              "TextFormat": {
+                "Ident": "StiTimeFormatService"
+              },
+              "Type": "Expression"
+            },
+            "8": {
+              "Ident": "StiText",
+              "Name": "Text42",
+              "Guid": "9a7f6fda97e8b304442461dceeeaa16f",
+              "ClientRectangle": "0,3,1.6,0.4",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "Server"
+              },
+              "Font": "Courier New;12;Bold;",
+              "Border": ";;;;;;;solid:Black",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:Black",
+              "Margins": {
+                "Left": 1,
+                "Right": 0,
+                "Top": 0,
+                "Bottom": 0
+              },
+              "Type": "Expression"
+            },
+            "9": {
+              "Ident": "StiText",
+              "Name": "Text48",
+              "Guid": "5900381ca509064cea0a3e5a0c938120",
+              "CanGrow": true,
+              "ClientRectangle": "2,3,5.19,0.4",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{kot_report.server}"
+              },
+              "Font": "Courier New;12;Bold;",
+              "Border": ";;;;;;;solid:Black",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:Black",
+              "TextOptions": {
+                "WordWrap": true
+              },
+              "Margins": {
+                "Left": 1,
+                "Right": 0,
+                "Top": 0,
+                "Bottom": 0
+              },
+              "Type": "Expression"
+            },
+            "10": {
+              "Ident": "StiText",
+              "Name": "Text19",
+              "Guid": "7416169759486267d0c292b1d5ba38d1",
+              "ClientRectangle": "0,1.2,7.2,0.4",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{kot_report.check_no}"
+              },
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "Courier New;12;Bold;",
+              "Border": ";;;;;;;solid:Black",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:Black",
+              "Margins": {
+                "Left": 2,
+                "Right": 0,
+                "Top": 0,
+                "Bottom": 0
+              },
+              "Type": "DataColumn"
+            },
+            "11": {
+              "Ident": "StiText",
+              "Name": "Text20",
+              "Guid": "7024c1e50b498a153120d49e8310d81f",
+              "ClientRectangle": "0,0.8,7.2,0.4",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{kot_report.restaurant_name}"
+              },
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "Courier New;12;Bold;",
+              "Border": ";;;;;;;solid:Black",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:Black",
+              "Margins": {
+                "Left": 2,
+                "Right": 0,
+                "Top": 0,
+                "Bottom": 0
+              },
+              "Type": "DataColumn"
+            },
+            "12": {
+              "Ident": "StiText",
+              "Name": "Text27",
+              "Guid": "e0c506fd2fc4f28f9c100a059cd8b8bf",
+              "ClientRectangle": "0,4.6,7.2,0.6",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{kot_report.void_dash}"
+              },
+              "VertAlignment": "Center",
+              "Font": "Courier New;12;Bold;",
+              "Border": ";;;DashDot;;;;solid:0,0,0",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:0,0,0",
+              "Margins": {
+                "Left": 1,
+                "Right": 0,
+                "Top": 0,
+                "Bottom": 0
+              },
+              "Type": "Expression"
+            },
+            "13": {
+              "Ident": "StiText",
+              "Name": "Text29",
+              "Guid": "b098052bc2ea6987b473c26742767720",
+              "ClientRectangle": "0,5.8,7.2,0.6",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{kot_report.void_dash}"
+              },
+              "VertAlignment": "Center",
+              "Font": "Courier New;12;Bold;",
+              "Border": ";;;DashDot;;;;solid:0,0,0",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:0,0,0",
+              "Margins": {
+                "Left": 1,
+                "Right": 0,
+                "Top": 0,
+                "Bottom": 0
+              },
+              "Type": "Expression"
+            },
+            "14": {
+              "Ident": "StiText",
+              "Name": "Text14",
+              "Guid": "5e45c85657255aef35876147c7ec05cc",
+              "ClientRectangle": "0,3.4,1.6,0.4",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "Guest"
+              },
+              "Font": "Courier New;12;Bold;",
+              "Border": ";;;;;;;solid:Black",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:Black",
+              "Margins": {
+                "Left": 1,
+                "Right": 0,
+                "Top": 0,
+                "Bottom": 0
+              },
+              "Type": "Expression"
+            },
+            "15": {
+              "Ident": "StiText",
+              "Name": "Text21",
+              "Guid": "3442c9064931bcf21f9f0f2a2a248c51",
+              "CanGrow": true,
+              "ClientRectangle": "2,3.4,5.19,0.4",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{kot_report.guest_name}"
+              },
+              "Font": "Courier New;12;Bold;",
+              "Border": ";;;;;;;solid:Black",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:Black",
+              "TextOptions": {
+                "WordWrap": true
+              },
+              "Margins": {
+                "Left": 1,
+                "Right": 0,
+                "Top": 0,
+                "Bottom": 0
+              },
+              "Type": "Expression"
+            },
+            "16": {
+              "Ident": "StiText",
+              "Name": "Text4",
+              "Guid": "277bd93f4e2c6b1bf435b0a27ab935ff",
+              "CanGrow": true,
+              "ClientRectangle": "1.6,2.2,0.39,0.4",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": ":"
+              },
+              "Font": "Courier New;12;Bold;",
+              "Border": ";;;;;;;solid:Black",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:Black",
+              "TextOptions": {
+                "WordWrap": true
+              },
+              "Margins": {
+                "Left": 2,
+                "Right": 0,
+                "Top": 0,
+                "Bottom": 0
+              },
+              "Type": "Expression"
+            },
+            "17": {
+              "Ident": "StiText",
+              "Name": "Text5",
+              "Guid": "4a516f962a4b140caabea3364d902cd0",
+              "CanGrow": true,
+              "ClientRectangle": "1.6,2.6,0.39,0.4",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": ":"
+              },
+              "Font": "Courier New;12;Bold;",
+              "Border": ";;;;;;;solid:Black",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:Black",
+              "TextOptions": {
+                "WordWrap": true
+              },
+              "Margins": {
+                "Left": 2,
+                "Right": 0,
+                "Top": 0,
+                "Bottom": 0
+              },
+              "Type": "Expression"
+            },
+            "18": {
+              "Ident": "StiText",
+              "Name": "Text7",
+              "Guid": "7c6990eeecadb7f8ce89c6f0184e268e",
+              "CanGrow": true,
+              "ClientRectangle": "1.6,3,0.39,0.4",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": ":"
+              },
+              "Font": "Courier New;12;Bold;",
+              "Border": ";;;;;;;solid:Black",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:Black",
+              "TextOptions": {
+                "WordWrap": true
+              },
+              "Margins": {
+                "Left": 1,
+                "Right": 0,
+                "Top": 0,
+                "Bottom": 0
+              },
+              "Type": "Expression"
+            },
+            "19": {
+              "Ident": "StiText",
+              "Name": "Text8",
+              "Guid": "d0f9a2e7603242f8adb05dd2c69fa958",
+              "CanGrow": true,
+              "ClientRectangle": "1.6,3.4,0.39,0.4",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": ":"
+              },
+              "Font": "Courier New;12;Bold;",
+              "Border": ";;;;;;;solid:Black",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:Black",
+              "TextOptions": {
+                "WordWrap": true
+              },
+              "Margins": {
+                "Left": 1,
+                "Right": 0,
+                "Top": 0,
+                "Bottom": 0
+              },
+              "Type": "Expression"
+            },
+            "20": {
+              "Ident": "StiText",
+              "Name": "Text10",
+              "Guid": "87afcd37eb3716f56c61ced368c2387f",
+              "CanGrow": true,
+              "ClientRectangle": "1.6,1.8,0.39,0.4",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": ":"
+              },
+              "Font": "Courier New;12;Bold;",
+              "Border": ";;;;;;;solid:Black",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:Black",
+              "TextOptions": {
+                "WordWrap": true
+              },
+              "Margins": {
+                "Left": 1,
+                "Right": 0,
+                "Top": 0,
+                "Bottom": 0
+              },
+              "Type": "Expression"
+            },
+            "21": {
+              "Ident": "StiText",
+              "Name": "Text13",
+              "Guid": "6ba026e197a17f5a559f32bc642004e6",
+              "ClientRectangle": "4.8,2.2,1.6,0.4",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "Cover"
+              },
+              "Font": "Courier New;12;Bold;",
+              "Border": ";;;;;;;solid:Black",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:Black",
+              "Margins": {
+                "Left": 1,
+                "Right": 0,
+                "Top": 0,
+                "Bottom": 0
+              },
+              "Type": "Expression"
+            },
+            "22": {
+              "Ident": "StiText",
+              "Name": "Text15",
+              "Guid": "a95077dda8000f9f87fd358b2a9294f9",
+              "ClientRectangle": "4.8,2.6,1.6,0.4",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "Parcel"
+              },
+              "Font": "Courier New;12;Bold;",
+              "Border": ";;;;;;;solid:Black",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:Black",
+              "Margins": {
+                "Left": 1,
+                "Right": 0,
+                "Top": 0,
+                "Bottom": 0
+              },
+              "Type": "Expression"
+            },
+            "23": {
+              "Ident": "StiText",
+              "Name": "Text23",
+              "Guid": "e23465b49aca31e4f72ca64aaefe126c",
+              "ClientRectangle": "6.4,2.2,0.8,0.4",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": ":{kot_report.covers}"
+              },
+              "Font": "Courier New;12;Bold;",
+              "Border": ";;;;;;;solid:Black",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:Black",
+              "Type": "Expression"
+            },
+            "24": {
+              "Ident": "StiText",
+              "Name": "Text24",
+              "Guid": "9628e5510b339cd4a3ad09f613ebb318",
+              "ClientRectangle": "6.4,2.6,0.8,0.4",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": ":{kot_report.parcel}"
+              },
+              "Font": "Courier New;12;Bold;",
+              "Border": ";;;;;;;solid:Black",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:Black",
+              "Type": "Expression"
+            },
+            "25": {
+              "Ident": "StiText",
+              "Name": "Text28",
+              "Guid": "b2a8d78c0594c1fbbed969f421d9d198",
+              "ClientRectangle": "0,0,7.4,0.4",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{kot_report.void_kot}"
+              },
+              "HorAlignment": "Center",
+              "VertAlignment": "Center",
+              "Font": "Courier New;12;Bold;",
+              "Border": ";;;;;;;solid:Black",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:Black",
+              "Margins": {
+                "Left": 2,
+                "Right": 0,
+                "Top": 0,
+                "Bottom": 0
+              },
+              "Type": "DataColumn"
+            },
+            "26": {
+              "Ident": "StiText",
+              "Name": "Text12",
+              "Guid": "39bbe824dce0f5bf8ed5b526e4203577",
+              "ClientRectangle": "0,3.8,2,0.6",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "Table:"
+              },
+              "Font": "Courier New;16;Bold;",
+              "Border": ";;;;;;;solid:Black",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:Black",
+              "Margins": {
+                "Left": 1,
+                "Right": 0,
+                "Top": 0,
+                "Bottom": 0
+              },
+              "Type": "Expression"
+            },
+            "27": {
+              "Ident": "StiText",
+              "Name": "Text22",
+              "Guid": "3554d709f6681d0e9041b2d0601f8442",
+              "ClientRectangle": "2.2,3.8,5,0.6",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{kot_report.table_code}"
+              },
+              "Font": "Courier New;16;Bold;",
+              "Border": ";;;;;;;solid:Black",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:Black",
+              "Type": "Expression"
+            }
+          }
+        },
+        "1": {
+          "Ident": "StiGroupHeaderBand",
+          "Name": "GroupHeaderBand1",
+          "ClientRectangle": "0,7.6,7.3,0",
+          "Interaction": {
+            "Ident": "StiBandInteraction"
+          },
+          "Border": ";;;;;;;solid:Black",
+          "Brush": "solid:Transparent",
+          "NewPageBefore": true,
+          "Condition": {
+            "Value": "{kot_report_pos_check_details.pos_kitchen_id}"
+          }
+        },
+        "2": {
+          "Ident": "StiDataBand",
+          "Name": "DataBand1",
+          "ClientRectangle": "0,8.4,7.3,0.4",
+          "Interaction": {
+            "Ident": "StiBandInteraction"
+          },
+          "Border": ";;;;;;;solid:0,0,0",
+          "Brush": "solid:Transparent",
+          "Components": {
+            "0": {
+              "Ident": "StiText",
+              "Name": "Text2",
+              "ShiftMode": "None",
+              "Guid": "137ac1c5d9374fa718209d30a839f255",
+              "CanShrink": true,
+              "CanGrow": true,
+              "ClientRectangle": "0,0,1,0.4",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{kot_report_pos_check_details.quantity}"
+              },
+              "Font": "Courier New;12;Bold;",
+              "Border": ";;;DashDot;;;;solid:0,0,0",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:Black",
+              "TextOptions": {
+                "WordWrap": true
+              },
+              "Margins": {
+                "Left": 1,
+                "Right": 0,
+                "Top": 0,
+                "Bottom": 0
+              },
+              "Type": "DataColumn"
+            },
+            "1": {
+              "Ident": "StiText",
+              "Name": "Text18",
+              "ShiftMode": "None",
+              "Guid": "853bf1892a6633bca3668006e5d54a2f",
+              "CanShrink": true,
+              "CanGrow": true,
+              "ClientRectangle": "1,0,6.21,0.4",
+              "Interaction": {
+                "Ident": "StiInteraction"
+              },
+              "Text": {
+                "Value": "{kot_report_pos_check_details.item_description}\r\n{IIF(kot_report_pos_check_details.void_reason==\"\",\"\",\"Void Reason-\")} {kot_report_pos_check_details.void_reason}"
+              },
+              "VertAlignment": "Center",
+              "Font": "Courier New;12;Bold;",
+              "Border": ";;;DashDot;;;;solid:0,0,0",
+              "Brush": "solid:Transparent",
+              "TextBrush": "solid:Black",
+              "TextOptions": {
+                "WordWrap": true
+              },
+              "Margins": {
+                "Left": 3,
+                "Right": 0,
+                "Top": 0,
+                "Bottom": 0
+              },
+              "Type": "Expression"
+            }
+          },
+          "DataSourceName": "kot_report_pos_check_details"
+        },
+        "3": {
+          "Ident": "StiGroupFooterBand",
+          "Name": "GroupFooterBand1",
+          "ClientRectangle": "0,9.6,7.3,0",
+          "Interaction": {
+            "Ident": "StiInteraction"
+          },
+          "Border": ";;;;;;;solid:0,0,0",
+          "Brush": "solid:Transparent"
+        },
+        "4": {
+          "Ident": "StiFooterBand",
+          "Name": "FooterBand2",
+          "ClientRectangle": "0,10.4,7.3,0",
+          "Interaction": {
+            "Ident": "StiInteraction"
+          },
+          "Border": ";;;;;;;solid:Black",
+          "Brush": "solid:Transparent",
+          "PrintIfEmpty": true
+        }
+      },
+      "PaperSize": "CSheet",
+      "PageWidth": 7.6,
+      "PageHeight": 27,
+      "Watermark": {
+        "Font": ";72;;",
+        "TextBrush": "solid:50,0,0,0"
+      },
+      "Margins": {
+        "Left": 0.2,
+        "Right": 0.1,
+        "Top": 0.1,
+        "Bottom": 0.1
+      }
+    }
+  }
+}

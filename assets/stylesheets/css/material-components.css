@@ -1,0 +1,132 @@
+
+.mat-mdc-form-field {
+  width: 100% !important;
+}
+
+.mat-mdc-text-field-wrapper {
+  padding: 0 !important;
+  border-radius: 0 !important;
+}
+
+.mat-mdc-form-field-infix {
+  width: 100% !important;
+}
+
+.mdc-text-field--filled.mdc-text-field--no-label .mdc-text-field__input {
+  height: 40px !important;
+  border: 1px solid #0D53BC !important;
+  border-radius: 4px !important;
+  color: #212529;
+  font-size: 14px;
+  background-color: #fff !important;
+}
+
+.mdc-text-field--no-label:not(.mdc-text-field--outlined):not(.mdc-text-field--textarea) .mat-mdc-form-field-infix {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.mdc-line-ripple {
+  display: none !important;
+}
+
+.mat-mdc-form-field-infix {
+  min-height: 40px !important;
+}
+
+.mdc-text-field--filled:not(.mdc-text-field--disabled) {
+  background-color: transparent !important;
+}
+
+.mdc-menu-surface.mat-mdc-autocomplete-panel {
+  padding: 0 !important;
+}
+
+.mat-mdc-option .mdc-list-item__primary-text {
+  font-size: 14px !important;
+  color: #212529;
+
+}
+
+.mat-mdc-form-field.lookup_icn {
+  position: relative;
+  height: auto;
+  right: 0;
+  bottom: 0;
+  width: 100% !important;
+}
+
+.mat-mdc-form-field.lookup_icn::after {
+  right: 10px;
+  top: 10px;
+}
+
+.mdc-text-field--invalid .mdc-text-field__input {
+  caret-color: #212529 !important;
+}
+
+.date_parnt {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 40px;
+}
+
+.date_parnt .date_grp {
+  display: flex;
+  flex: 1;
+  border: 1px solid #d2d2d2;
+  border-radius: 4px !important;
+  margin-right: 5px;
+  max-width: 98px;
+}
+
+.date_parnt .date_grp input {
+  border: none !important;
+}
+
+.mdc-icon-button.mat-mdc-icon-button.mat-unthemed.mat-mdc-button-base {
+  padding: 0 !important;
+  width: 22px !important;
+  height: 40px !important;
+  border-radius: 0 !important;
+  margin: 0 !important;
+}
+
+.mdc-icon-button.mat-mdc-icon-button.mat-unthemed.mat-mdc-button-base.mat-calendar-previous-button,
+.mdc-icon-button.mat-mdc-icon-button.mat-unthemed.mat-mdc-button-base.mat-calendar-next-button {
+  width: 40px !important;
+}
+
+.generic_date .date_parnt .date_grp span {
+  margin-right: 0 !important;
+}
+
+.generic_date .date_parnt .date_grp span:after {
+  display: none !important;
+}
+
+.mat-mdc-icon-button svg {
+  vertical-align: text-top !important;
+  width: 20px !important;
+  fill: #4a4a4a !important;
+}
+
+.mat-mdc-icon-button .mat-mdc-button-touch-target {
+  width: 22px !important;
+  margin: 0 !important;
+  height: 40px !important;
+}
+
+.mat-mdc-icon-button .mat-mdc-button-persistent-ripple {
+  border-radius: 0 !important;
+  margin: 0 !important;
+}
+
+.mat-calendar-body-selected {
+  background-color: #4a4a4a !important;
+}
+
+.mat-calendar-body-cell:not(.mat-calendar-body-disabled):hover>.mat-calendar-body-cell-content:not(.mat-calendar-body-selected):not(.mat-calendar-body-comparison-identical) {
+  background-color: #dddddd !important;
+}

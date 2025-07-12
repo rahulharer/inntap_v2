@@ -1,0 +1,535 @@
+@import '_variables.scss';
+
+.dx-datagrid-header-panel{
+    display: none;
+}
+.dx-datagrid-pager{
+    border-top: none !important;
+}
+.dx-datagrid-rowsview .dx-row, .dx-datagrid .dx-row-lines>td{
+    border-bottom: none !important;
+}
+.dx-datagrid{
+    background-color: transparent !important;
+}
+
+.demo-container.dev_grd_blk .dx-datagrid-headers .dx-datagrid-table .dx-row > td, .dx-datagrid-headers .dx-header-row.dx-column-lines>td>.dx-datagrid-text-content, .dx-datagrid-headers .dx-datagrid-table .dx-row > td{
+    background: $grid-header;
+    color:$font-color;
+    font-size: $grid-font-size;
+}
+.demo-container.dev_grd_blk .dx-datagrid-headers .dx-datagrid-table .dx-row > td, .dx-datagrid-headers .dx-datagrid-table .dx-row > td{
+    padding: 10px 5px !important;
+    height: 40px;
+}
+
+.demo-container.dev_grd_blk .dx-datagrid .dx-column-lines > td, .dx-datagrid .dx-column-lines > td, .dx-datagrid .dx-column-lines > td{
+    font-size: $grid-font-size;
+    height: 40px;
+    padding: 10px 5px;
+}
+
+.dx-datagrid .dx-row > td {
+    padding: 10px 5px !important;
+}
+.dx-row.dx-data-row.dx-row-lines.dx-column-lines:nth-child(2n+1), .dx-datagrid-rowsview .dx-row:nth-child(2n+1){
+    background-color: #ffffff;
+}
+
+.dx-row.dx-data-row.dx-row-lines.dx-column-lines:nth-child(2n), .dx-datagrid-rowsview .dx-row:nth-child(2n){
+    background-color: #f9f8f8;
+}
+
+.dx-datagrid-headers .dx-datagrid-table .dx-row>td{
+    border-bottom: none !important;
+}
+
+.dx-datagrid .dx-column-lines>td, .dx-datagrid .dx-column-lines>td{
+    border-right: none !important;
+    border-left: none !important;
+}
+
+.dx-datagrid-rowsview .dx-selection.dx-row>td, .dx-datagrid-rowsview .dx-selection.dx-row:hover>td{
+   background-color: transparent !important;
+}
+.dx-datagrid-checkbox-size.dx-widget.dx-checkbox .dx-checkbox-container .dx-checkbox-icon
+{
+   background: #ccc !important;
+   width: 17px !important;
+   height: 17px !important;
+   border-radius: 2px !important;
+   &:after
+   {
+       position: absolute;
+       content: "";
+       width: 5px;
+       height: 9px;
+//        font-family: FontAwesome;
+    //    border: solid $white-color;
+    //    border-width: 0 2px 2px 0;
+    //    transform: rotate(45deg);
+    //    -ms-transform: rotate(45deg); /* IE 9 */
+    //    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+       left: 6px;
+       top: 2px;
+       display: none;
+   }
+}
+
+.dx-datagrid-checkbox-size.dx-widget.dx-checkbox.dx-checkbox-checked .dx-checkbox-container .dx-checkbox-icon, .dx-checkbox-checked .dx-checkbox-icon
+{
+    // background:#4a4a4a !important;
+    background: url("data:image/svg+xml,<svg viewBox='0 0 17 17' fill='%23514e4e' xmlns='http://www.w3.org/2000/svg'><path d='M3 14.5A1.5 1.5 0 0 1 1.5 13V3A1.5 1.5 0 0 1 3 1.5h8a.5.5 0 0 1 0 1H3a.5.5 0 0 0-.5.5v10a.5.5 0 0 0 .5.5h10a.5.5 0 0 0 .5-.5V8a.5.5 0 0 1 1 0v5a1.5 1.5 0 0 1-1.5 1.5H3z'/><path d='m8.354 10.354 7-7a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0z' clip-rule='evenodd'/></svg>") !important;
+    background-repeat: no-repeat !important;
+    background-size: 20px !important;
+    background-position: -1px -1px !important;
+    border: none;
+
+    
+    // width: 24px;
+    // height: 24px; 
+    &:after
+    {
+        display: block;    
+    }
+}
+.dx-prev-button{
+    transform: rotate(180deg);
+}
+.dx-next-button{
+    transform: rotate(0deg) !important;
+}
+.dx-pager .dx-pages .dx-prev-button:before, .dx-pager .dx-pages .dx-next-button:before
+{
+    display: none !important;
+}
+
+.dx-pager .dx-pages .dx-navigate-button.dx-button-disable
+{
+    opacity: 1 !important;
+}
+.dx-pager .dx-pages .dx-navigate-button{
+    background-image: url("data:image/svg+xml,<svg viewBox='0 -3 30 30' xmlns='http://www.w3.org/2000/svg'><path fill='%23292929' d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z' clip-rule='evenodd'/></svg>");
+    // background-color: #8e9ba7;
+    background-repeat: no-repeat;
+    background-position: 6px 5px;
+    width: 40px !important;
+    height: 40px !important;
+    padding: 0 !important;
+    border-radius: 4px;
+    margin-left: 5px;
+}
+.dx-pager .dx-pages .dx-page{
+    width: 40px !important;
+    height: 40px !important;
+    padding: 12px 2px !important;
+    font-size: 1rem;
+    font-family: $main-font !important;
+}
+.dx-pager .dx-pages .dx-next-button
+{
+  -ms-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.dx-pager .dx-pages .dx-selection, .dx-pager .dx-page-sizes .dx-selection 
+{
+    background: $theme-color !important;
+    color: $white-color !important;
+    border-radius: 50%;
+}
+.dx-pager .dx-pages{
+    display: flex;
+}
+
+.dx-page{
+    background-color: transparent;
+    min-width: 30px;
+    height: auto;
+    text-align: center;
+    line-height: 13px;
+}
+
+.demo-container.dev_grd_blk{
+    position: relative;
+}
+
+.dx-editor-cell .dx-texteditor{
+    background-color: transparent !important;
+}
+
+.dx-datagrid-focus-overlay{
+    border: 1px solid #337ab7;
+}
+.dx-highlight-outline::after{
+    display: none !important;
+}
+
+.dx-widget{
+    font-family: $main-font !important;
+}
+
+.dx-checkbox, .dx-checkbox-icon{
+    width: 17px !important;
+    height: 17px !important;
+}
+
+.delete_chck_bx .dx-datagrid-checkbox-size.dx-widget.dx-checkbox .dx-checkbox-container .dx-checkbox-icon{
+    background-color:transparent !important;
+    position: relative;
+    border: none;
+    &::before{
+        position: absolute;
+        content: "\f1f8";
+        font-family: FontAwesome;
+        font-size: 19px;
+        line-height: 18px;
+        color: #808080;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        margin: auto;
+    }
+}
+.delete_chck_bx .dx-datagrid-checkbox-size.dx-widget.dx-checkbox-checked .dx-checkbox-container .dx-checkbox-icon:before{
+    color: $theme-color;
+}
+.delete_chck_bx .dx-datagrid-checkbox-size.dx-widget.dx-checkbox .dx-checkbox-container .dx-checkbox-icon:after{
+    display: none;
+}
+
+.requstn_chck_bx .dx-datagrid-checkbox-size.dx-widget.dx-checkbox .dx-checkbox-container .dx-checkbox-icon, .requstn_chck_bx .dx-checkbox-icon{
+    background-color:transparent !important;
+    position: relative;
+    border: none;
+    &::before{
+        position: absolute;
+        content: "\f15b";
+        font-family: FontAwesome;
+        font-size: 18px;
+        line-height: 18px;
+        color: #808080;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        margin: auto;
+    }
+}
+
+.requstn_chck_bx .dx-datagrid-checkbox-size.dx-widget.dx-checkbox-checked .dx-checkbox-container .dx-checkbox-icon:before{
+    color: $theme-color;
+}
+.requstn_chck_bx .dx-datagrid-checkbox-size.dx-widget.dx-checkbox .dx-checkbox-container .dx-checkbox-icon:after{
+    display: none;
+}
+
+.dx-pivotgrid .dx-area-description-cell, .dx-pivotgrid .dx-pivotgrid-horizontal-headers tr{
+    background-color: $theme-color !important;
+}
+.dx-pivotgrid .dx-area-description-cell, .dx-pivotgrid .dx-pivotgrid-horizontal-headers tr span{
+    color: $font-color;
+}
+.dx-pivotgrid .dx-pivotgrid-horizontal-headers tr:nth-child(2){
+    background-color:#959595 !important;
+}
+.dx-pivotgrid .dx-pivotgrid-horizontal-headers tr:nth-child(2) span{
+    color: $white-color;
+}
+.dx-pivotgrid tr:nth-child(2n+1) {
+    background-color: #ffffff;
+}
+
+.dx-pivotgrid tr:nth-child(2n) {
+    background-color: #f9f8f8;
+}
+
+.dx-pivotgrid .dx-pivotgrid-collapsed .dx-expand::before,.dx-pivotgrid .dx-pivotgrid-expanded .dx-expand::before{
+    color: $font-color;
+}
+
+.dx-pivotgrid .dx-pivotgrid-area td, .dx-pivotgrid .dx-word-wrap .dx-pivotgrid-collapsed > span, .dx-pivotgrid .dx-word-wrap .dx-pivotgrid-expanded > span{
+    color: $font-color !important;
+}
+
+.dx-pivotgrid.dx-row-lines .dx-pivotgrid-area td{
+    border-top: none !important;
+}
+
+.dx-pivotgrid .dx-area-description-cell{
+    border-bottom: none !important;
+}
+
+.dx-dropdownlist-popup-wrapper.dx-popup-wrapper .dx-overlay-content.dx-dropdowneditor-overlay-flipped, .dx-dropdownlist-popup-wrapper.dx-popup-wrapper .dx-overlay-content, .dx-overlay-content.dx-popup-normal.dx-popup-draggable.dx-resizable{
+    width: 650px !important;
+    min-width: 650px !important;
+    overflow: auto;
+}
+.dx-scrollbar-vertical .dx-scrollable-scroll{
+    width: 5px !important;
+}
+.dx-dropdownlist-popup-wrapper .dx-popup-content{
+    width: 1000px;
+}
+.dx-dropdownlist-popup-wrapper .dx-list-item:nth-child(2) {
+    padding-top: 35px;
+}
+.dx-state-disabled.dx-item.dx-list-item:nth-child(1) {
+    background-color: $theme-color;
+    opacity: 1;
+    position: fixed;
+    color: #ffffff;
+    width: 1000px;
+}
+.dx-item-content.dx-list-item-content{
+    border-bottom: 1px solid #efefef;
+}
+.dx-state-disabled.dx-item.dx-list-item .dx-item-content.dx-list-item-content tr td{
+    color: $white-color !important;
+}
+.dx-item-content.dx-list-item-content tr td{
+    font-size: 1rem;
+}
+.dx-item-content.dx-list-item-content tr td:first-child {
+    min-width: 60px;
+    max-width: 60px;
+}
+
+.dx-item-content.dx-list-item-content tr td:nth-child(2) {
+    min-width: 160px;
+    max-width: 160px;
+    white-space: initial;
+    padding: 0 5px;
+}
+.dx-item-content.dx-list-item-content tr td:nth-child(n+3) {
+    min-width: 150px;
+    max-width: 150px;
+    padding: 0 5px;
+    white-space: initial;
+}
+.dx-dropdownlist-popup-wrapper .dx-list .dx-scrollable-content{
+    transform: none !important;
+}
+
+.dx-datagrid-headers + .dx-datagrid-rowsview {
+    border-top: none !important;
+}
+.dx-datagrid-headers{
+    border-bottom: none !important;
+}
+
+.dx-pivotgrid{
+    height: auto !important;
+}
+
+.dx-datagrid .dx-column-lines > td:last-child a:hover .print_icn{
+    background-image: url("data:image/svg+xml,<svg viewBox='0 0 16 16' fill='%23223577' xmlns='http://www.w3.org/2000/svg'><path d='M5 1a2 2 0 0 0-2 2v1h10V3a2 2 0 0 0-2-2H5zm6 8H5a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1z'/><path d='M0 7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2h-1v-2a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v2H2a2 2 0 0 1-2-2V7zm2.5 1a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1z' clip-rule='evenodd'/></svg>");
+}
+
+.dx-datagrid .dx-column-lines > td:last-child a:hover .modify_icn{
+    background-image: url("data:image/svg+xml,<svg viewBox='0 0 16 16' fill='%23223577' xmlns='http://www.w3.org/2000/svg'><path d='M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z'/><path d='M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z' clip-rule='evenodd'/></svg>");
+}
+
+.demo-container{
+    position: relative;
+}
+
+.dx-datagrid-content .dx-datagrid-table .dx-row > td{
+    text-overflow: unset;
+}
+
+.dx-datagrid-borders > .dx-datagrid-headers, .dx-datagrid-borders > .dx-datagrid-rowsview{
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-bottom: none !important;
+}
+.dx-datagrid-content .dx-datagrid-table .dx-row .dx-command-edit{
+    padding: 0;
+    text-align: left !important;
+    vertical-align: middle;
+}
+.dx-link.dx-link-edit{
+    font-size: 0;
+    position: relative;
+    width: 15px;
+    height: 18px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 15px;
+    &:after{
+        position: absolute;
+        content: "\f044";
+        font-size: 17px;
+        line-height: 16px;
+        color: #818181;
+        font-family: FontAwesome;
+        left: 0;
+        top: 0;
+
+    }
+    &:hover:after{
+        color: #3e3e3e;
+    }
+}
+.dx-link.dx-link-delete{
+    font-size: 0;
+    position: relative;
+    width: 15px;
+    height: 18px;
+    vertical-align: middle;
+    display: inline-block;
+    &:after{
+        position: absolute;
+        content: "\f014";
+        font-size: 17px;
+        line-height: 16px;
+        color: #818181;
+        font-family: FontAwesome;
+        left: 0;
+        top: 0;
+    }
+    &:hover:after{
+        color: #3e3e3e;
+    }
+}
+
+.dx-datagrid-form-buttons-container .dx-button-content, .dx-datagrid-form-buttons-container .dx-button-mode-contained{
+    height: 40px;
+    font-size: 0.875rem;
+    color: $white-color;
+    border-radius: $border-radius;
+    border: none;
+}
+
+.dx-datagrid-form-buttons-container .dx-button-content{
+    background-color: #4a4a4a;
+    padding: 0 20px !important;
+}
+.dx-button-normal.dx-state-hover .dx-button-content, .dx-button-back.dx-state-hover .dx-button-content{
+    background-color: #3e3e3e !important;
+    color: $white-color;
+}
+.dx-datagrid-headers .dx-datagrid-content{
+    padding-bottom: 0;
+}
+.dx-datagrid-content{
+    padding-bottom: 10px;
+}
+
+.dx-datagrid-summary-item{
+    font-size: 1rem;
+    font-family: $main-font;
+}
+
+.dx-datagrid-borders > .dx-datagrid-total-footer {
+    border-top: 1px solid #ddd !important;
+    border-left: none !important;
+    border-right: none !important;
+}
+
+.master-detail-caption{
+    margin-bottom: 10px;
+}
+.dx-checkbox-indeterminate .dx-checkbox-icon:before{
+    display: none !important;
+}
+.dx-checkbox-icon{
+    background-color: #ddd !important;
+}
+.dx-checkbox.dx-state-hover .dx-checkbox-icon{
+    border: none !important;
+}
+
+// .dx-checkbox-checked .dx-checkbox-icon{
+//     background-color: #4a4a4a !important;
+//     color: $white-color !important;
+// }
+
+
+.dx-datagrid-headers .grid_inp_brd::after{
+    display: none;
+}
+.dx-datagrid-content .dx-row.dx-data-row.dx-row-lines.dx-column-lines:nth-child(3) ~ .dx-row.dx-data-row.dx-row-lines.dx-column-lines .grid_inp_brd::after{
+   display: none;
+}
+
+.dx-checkbox-checked .dx-checkbox-icon::before{
+    display: none !important;
+}
+
+.dx-datagrid .dx-row > td.active_user{
+    position: relative;
+    padding: 0 !important;
+    &:after {
+        position: absolute;
+        content: "\f007";
+        font-family: FontAwesome;
+        width: 100%;
+        left: 0;
+        top: 6px;
+        display: inline-block;
+        font-size: 19px;
+        color: $theme-color;
+    }
+}
+
+.dx-datagrid .dx-datagrid-headers .dx-row > td.non_active_user:after{
+    display: none;
+}
+.dx-datagrid .dx-row > td.active_user .dx-datagrid-checkbox-size.dx-widget.dx-checkbox.dx-checkbox-checked .dx-checkbox-container .dx-checkbox-icon,
+.dx-datagrid .dx-row > td.non_active_user .dx-datagrid-checkbox-size.dx-widget.dx-checkbox.dx-checkbox-checked .dx-checkbox-container .dx-checkbox-icon
+// .dx-datagrid .dx-row > td.membr_select .dx-datagrid-checkbox-size.dx-widget.dx-checkbox.dx-checkbox-checked .dx-checkbox-container .dx-checkbox-icon,
+// .dx-datagrid .dx-row > td.membr_select .dx-datagrid-checkbox-size.dx-widget.dx-checkbox .dx-checkbox-container .dx-checkbox-icon
+{
+    background-color: transparent !important;
+    border: none;
+    background-image: none !important;
+}
+.dx-datagrid .dx-datagrid-rowsview .dx-row > td.non_active_user{
+    position: relative;
+    padding: 0 !important;
+    &:after {
+        position: absolute;
+        content: "\f007";
+        font-family: FontAwesome;
+        width: 100%;
+        left: 0;
+        top: 6px;
+        display: inline-block;
+        font-size: 19px;
+        color: #b0b0b0;
+    }
+}
+.dx-datagrid .dx-datagrid-rowsview .dx-row > td.membr_select .dx-checkbox{
+    width: 20px !important;
+}
+.dx-datagrid .dx-datagrid-rowsview .dx-row > td.membr_select .dx-checkbox-icon{
+    position: relative;
+    padding: 0 !important;
+    width: 20px !important;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%23b0b0b0' class='bi bi-person-check-fill' viewBox='0 0 16 16'%3e%3cpath fill-rule='evenodd' d='M15.854 5.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L12.5 7.793l2.646-2.647a.5.5 0 0 1 .708 0'/%3e%3cpath d='M1 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6'/%3e%3c/svg%3e") !important;
+    background-repeat: no-repeat !important;
+    background-size: 20px !important;
+    background-position: 0 !important;
+    background-color: transparent !important;
+    border: none;
+}
+
+.dx-datagrid .dx-datagrid-rowsview .dx-row > td.membr_select .dx-checkbox-checked .dx-checkbox-icon{
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%234a4a4a' class='bi bi-person-check-fill' viewBox='0 0 16 16'%3e%3cpath fill-rule='evenodd' d='M15.854 5.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L12.5 7.793l2.646-2.647a.5.5 0 0 1 .708 0'/%3e%3cpath d='M1 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6'/%3e%3c/svg%3e") !important;
+    background-position: 0 !important;
+}
+
+.dx-datagrid-headers .dx-datagrid-table .dx-row>td.padg_00 {
+    padding: 10px 5px !important;
+  }
+
+  .dx-datagrid .dx-row > td.padg_left_05, .padg_left_05{
+    padding-left: 5px !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    padding-right: 0 !important;
+}

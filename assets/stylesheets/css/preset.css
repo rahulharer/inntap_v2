@@ -1,0 +1,3850 @@
+/* line 4, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.main_bdy_cls {
+  display: flex;
+  flex-direction: column;
+  color: #000000;
+  height: 100%;
+}
+
+/* line 11, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.main_flx_blk {
+  flex: 1;
+  overflow: auto;
+}
+
+/* line 15, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.header_parnt_blk {
+  background: #212529;
+  padding: 8px 0;
+}
+
+/* line 18, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.header_parnt_blk .dropdown-toggle::after {
+  border-top: 0.3em solid #ffffff;
+}
+
+/* line 22, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+header .logo_blk {
+  height: 100%;
+  padding: 0 !important;
+}
+
+/* line 25, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+header .logo_blk .curnt_outlet {
+  line-height: normal;
+}
+
+/* line 29, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.header_parnt_blk .dotted_border {
+  position: relative;
+  top: 2px;
+}
+
+/* line 33, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.dotted_border {
+  width: 1px;
+  height: 25px;
+  background-color: gray;
+  margin: 0 10px;
+}
+
+/* line 40, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.header_search {
+  width: 100%;
+  float: right;
+  height: 34px;
+  font-family: "Roboto", sans-serif;
+  border: 1px solid #555c63;
+  background-color: #343a40;
+  color: #fff;
+}
+
+/* line 49, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.sub_header_parnt {
+  background-color: #135B8F;
+  padding: 0;
+  height: 40px;
+}
+
+/* line 53, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.sub_header_parnt .container-fluid, .sub_header_parnt .navbar-collapse, .sub_header_parnt .navbar-nav {
+  height: 100%;
+}
+
+/* line 56, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.sub_header_parnt .busnss_date {
+  display: none;
+}
+
+/* line 59, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.sub_header_parnt.navbar-dark .navbar-nav .nav-link.active {
+  background-color: #ffffff;
+  color: #135B8F;
+}
+
+/* line 63, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.sub_header_parnt.navbar-dark .navbar-nav .nav-link:hover {
+  background-color: #ffffff;
+  transition: all ease .3s;
+  color: #135B8F;
+}
+
+/* line 69, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.sub_header_parnt.navbar-dark .navbar-nav .nav-link {
+  color: #ffffff;
+  height: 100%;
+  font-size: 0.875rem;
+  display: inline-block;
+}
+
+/* line 76, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.dropdown-menu {
+  padding: 0;
+}
+
+/* line 79, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.dropdown-item.active, .dropdown-item:active {
+  background-color: #135B8F !important;
+}
+
+/* line 82, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.navbar-nav .dropdown-menu {
+  border: none;
+  box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0 0 4px 4px;
+}
+
+/* line 87, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,<svg viewBox='0 0 16 16' fill='%23fff' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' d='M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z' clip-rule='evenodd'/></svg>");
+}
+
+/* line 90, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.busnss_date {
+  margin-right: 10px;
+}
+
+/* line 92, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.busnss_date input {
+  display: none;
+  width: 100%;
+}
+
+/* line 96, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.busnss_date label {
+  font-size: 0.875rem;
+  color: #ffffff;
+}
+
+/* line 99, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.busnss_date label i {
+  margin-right: 5px;
+  font-size: 20px;
+}
+
+/* line 104, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.busnss_date.busnss_mob_resp {
+  display: none;
+}
+
+/* line 109, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.navbar-nav li ul li:hover > ul.dropdown-menu {
+  display: block;
+}
+
+/* line 112, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.dropdown-submenu {
+  position: relative;
+}
+
+/* line 115, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.dropdown-submenu > .dropdown-menu {
+  top: 0;
+  left: 100%;
+}
+
+/* line 121, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.dropdown-menu > li > a:hover:after {
+  transform: rotate(-90deg);
+}
+
+/* line 125, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.dropdown-menu[data-bs-popper] {
+  margin-top: 0 !important;
+}
+
+/* line 129, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.dropdown-item {
+  padding: 9px 10px;
+}
+
+/* line 135, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.pt-5 {
+  padding-top: 50px !important;
+}
+
+/* line 138, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.pt-15 {
+  padding-top: 15px !important;
+}
+
+/* line 141, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.mb-15 {
+  margin-bottom: 15px !important;
+}
+
+/* line 145, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.outr_padg {
+  padding: 0 15px;
+}
+
+/* line 149, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.right_align {
+  text-align: right !important;
+}
+
+/* line 152, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.p-all-3 {
+  padding: 15px;
+}
+
+/* line 156, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.mt-15 {
+  margin-top: 15px;
+}
+
+/* line 160, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.read_only {
+  color: #7D314C;
+}
+
+/* line 163, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: #efefef;
+}
+
+/* line 170, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+  background-color: #efefef;
+}
+
+/* line 176, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #ccc;
+}
+
+/* line 183, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.lookup_cls {
+  position: relative;
+}
+
+/* line 185, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.lookup_cls .form-control {
+  border-color: #0D53BC !important;
+}
+
+/* line 188, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.lookup_cls label {
+  color: #0D53BC !important;
+}
+
+/* line 191, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.lookup_cls .lookup_icn {
+  position: absolute;
+}
+
+/* line 193, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.lookup_cls .lookup_icn:after {
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%230D53BC' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  right: 0;
+  bottom: 5px;
+}
+
+/* line 204, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.lookup_cls input:focus + .lookup_icn {
+  position: absolute;
+  content: "";
+  right: 0;
+  top: 18px;
+  background-image: url("../../images/default.gif");
+  width: 23px;
+  height: 23px;
+}
+
+/* line 212, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.lookup_cls input:focus + .lookup_icn:after {
+  display: none;
+}
+
+/* line 219, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.read_only_cls .form-control {
+  border-color: #7D314C !important;
+}
+
+/* line 222, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.read_only_cls label {
+  color: #7D314C !important;
+}
+
+/* line 224, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.read_only_cls label:after {
+  position: absolute;
+  content: "\f05e";
+  font-family: FontAwesome;
+  width: 17px;
+  height: 17px;
+  font-size: 0.875rem;
+  line-height: 0.875rem;
+  color: #7D314C;
+  right: 0;
+  bottom: 5px;
+}
+
+/* line 238, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.read_only_cls input:focus:after {
+  content: "\f05e";
+}
+
+/* line 244, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.grd_lookup {
+  position: relative;
+}
+
+/* line 246, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.grd_lookup:before {
+  position: absolute;
+  content: "";
+  width: 25px;
+  height: 25px;
+  background: url("../../images/Spinner.gif");
+  top: 2px;
+  right: 0;
+}
+
+/* line 255, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.grd_lookup:after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 2px;
+  background-color: #135B8F;
+  bottom: 2px;
+  left: 0;
+}
+
+/* line 266, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.grd_lookup.dx-focused:after {
+  bottom: 0;
+}
+
+/* line 271, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.demo-container.dev_grd_blk .dx-datagrid-headers .dx-datagrid-table .dx-row > td.grd_lookup {
+  box-shadow: none;
+}
+
+/* line 275, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.dx-editor-cell .dx-texteditor .dx-texteditor-input {
+  background-color: transparent !important;
+  padding: 7px 25px 7px 7px;
+  border-radius: 0;
+}
+
+/* line 281, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.dx-editor-cell.dx-focused .dx-texteditor .dx-texteditor-input {
+  padding: 0;
+}
+
+/* line 285, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.dx-widget input, .dx-widget textarea {
+  font-family: "Roboto", sans-serif !important;
+}
+
+/* line 288, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.grd_date {
+  position: relative;
+}
+
+/* line 290, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.grd_date:before {
+  position: absolute;
+  content: "\f217";
+  font-family: Bootstrap-icons;
+  font-size: 15px;
+  line-height: 18px;
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  right: 10px;
+  bottom: 13px;
+  cursor: pointer;
+  color: #7c7373;
+}
+
+/* line 304, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.grd_date.grd_fill:after {
+  width: 100px;
+}
+
+/* line 308, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.grd_date.dx-editor-cell .dx-texteditor .dx-texteditor-input {
+  padding: 5px 0;
+}
+
+/* line 311, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.dx-datebox-calendar .dx-dropdowneditor-icon:before {
+  display: none !important;
+}
+
+/* line 315, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.dx-dropdowneditor.dx-dropdowneditor-active .dx-dropdowneditor-icon, .dx-dropdowneditor-button.dx-state-active .dx-dropdowneditor-icon, .dx-dropdowneditor.dx-state-hover:not(.dx-custom-button-hovered) .dx-dropdowneditor-icon, .dx-dropdowneditor.dx-state-active .dx-dropdowneditor-icon {
+  background-color: transparent !important;
+}
+
+/* line 318, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.grd_fill {
+  position: relative;
+}
+
+/* line 320, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.grd_fill:after {
+  position: absolute;
+  content: "";
+  width: 93%;
+  height: 1px;
+  background-color: #d2d2d2;
+  bottom: 7px;
+  left: 10px;
+  right: auto;
+}
+
+/* line 330, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.grd_fill.right_align::after {
+  right: 10px;
+  left: auto;
+}
+
+/* line 335, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.grd_fill.dx-focused:after {
+  bottom: 0;
+}
+
+/* line 341, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.demo-container.dev_grd_blk .dx-datagrid-headers .dx-datagrid-table .dx-row > td.grd_lookup:before,
+.demo-container.dev_grd_blk .dx-datagrid-headers .dx-datagrid-table .dx-row > td.grd_lookup:after,
+.demo-container.dev_grd_blk .dx-datagrid-headers .dx-datagrid-table .dx-row > td.grd_fill:before,
+.demo-container.dev_grd_blk .dx-datagrid-headers .dx-datagrid-table .dx-row > td.grd_fill:after {
+  display: none;
+}
+
+/* line 349, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.ui-widget {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.875rem;
+}
+
+/* line 353, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.ui-widget-header {
+  background-color: #f0eeee !important;
+  border-color: #bbe3ff;
+  font-weight: 600;
+}
+
+/* line 358, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.ui-widget-header a {
+  color: #135B8F;
+}
+
+/* line 361, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-state-default:hover {
+  border: 1px solid #c5c5c5 !important;
+  background: #f0eeee !important;
+  color: #223577 !important;
+}
+
+/* line 366, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.ui-state-active, .ui-widget-content .ui-state-active {
+  color: #223577;
+  border-color: #223577;
+}
+
+/* line 370, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.ui-state-default, .ui-widget-content .ui-state-default {
+  background-color: transparent;
+}
+
+/* line 373, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.ui-datepicker-month, .ui-datepicker-year, .ui-datepicker th {
+  color: #223577;
+}
+
+/* line 379, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.loader {
+  display: flex;
+  font-size: 0px;
+  padding: 0px;
+  position: absolute;
+  width: 100%;
+  align-items: center;
+  top: 0;
+  height: 100%;
+  bottom: 0;
+  margin: auto;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+/* line 393, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.loader span {
+  vertical-align: middle;
+  border-radius: 100%;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 3px 2px;
+  -webkit-animation: loader 0.8s linear infinite alternate;
+  animation: loader 0.8s linear infinite alternate;
+}
+
+/* line 404, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.loader span:nth-child(1) {
+  -webkit-animation-delay: -1s;
+  animation-delay: -1s;
+  background: rgba(19, 91, 143, 0.6);
+}
+
+/* line 409, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.loader span:nth-child(2) {
+  -webkit-animation-delay: -0.8s;
+  animation-delay: -0.8s;
+  background: rgba(19, 91, 143, 0.8);
+}
+
+/* line 414, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.loader span:nth-child(3) {
+  -webkit-animation-delay: -0.26666s;
+  animation-delay: -0.26666s;
+  background: #135b8f;
+}
+
+/* line 419, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.loader span:nth-child(4) {
+  -webkit-animation-delay: -0.8s;
+  animation-delay: -0.8s;
+  background: rgba(19, 91, 143, 0.8);
+}
+
+/* line 425, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.loader span:nth-child(5) {
+  -webkit-animation-delay: -1s;
+  animation-delay: -1s;
+  background: rgba(19, 91, 143, 0.4);
+}
+
+@keyframes loader {
+  from {
+    transform: scale(0, 0);
+  }
+  to {
+    transform: scale(1, 1);
+  }
+}
+
+@-webkit-keyframes loader {
+  from {
+    -webkit-transform: scale(0, 0);
+  }
+  to {
+    -webkit-transform: scale(1, 1);
+  }
+}
+
+/* line 443, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.succss_msg_parnt {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 5px 0;
+  font-size: 0.875rem;
+  background-color: white;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+/* line 454, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.succss_msg_parnt.succss_multiple {
+  border: 1px solid #146c43;
+  padding: 10px;
+}
+
+/* line 457, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.succss_msg_parnt.succss_multiple .succss_icn {
+  margin-right: 0;
+  font-size: 35px;
+  padding: 10px;
+}
+
+/* line 462, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.succss_msg_parnt.succss_multiple .succss_cnt {
+  padding-left: 10px;
+}
+
+/* line 466, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.succss_msg_parnt .succss_icn {
+  color: #146c43;
+  margin-right: 5px;
+}
+
+/* line 470, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.succss_msg_parnt .succss_cnt {
+  text-align: left;
+}
+
+/* line 472, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.succss_msg_parnt .succss_cnt h5 {
+  font-size: 0.875rem;
+  color: #146c43;
+  padding-left: 0;
+  margin: 0;
+}
+
+/* line 477, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.succss_msg_parnt .succss_cnt h5::after {
+  display: none;
+}
+
+/* line 484, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.succss_msg_parnt .succss_cnt h5 a {
+  width: 35px;
+  height: 35px;
+  text-align: right;
+  border-left: 1px solid #d2d2d2;
+  margin-left: 10px;
+}
+
+/* line 490, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.succss_msg_parnt .succss_cnt h5 a i {
+  font-size: 30px;
+  color: #d2d2d2;
+  margin: 0;
+  width: 100%;
+  display: inline-block;
+}
+
+/* line 497, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.succss_msg_parnt .succss_cnt h5 a:hover i, .succss_msg_parnt .succss_cnt h5 a:focus i {
+  color: #414040;
+}
+
+/* line 502, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.succss_msg_parnt .succss_cnt ul {
+  list-style-type: circle;
+  list-style-position: inside;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+/* line 507, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.succss_msg_parnt .succss_cnt ul li {
+  font-size: 0.875rem;
+  padding: 5px 0 0;
+  color: #000000;
+}
+
+/* line 519, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.error_msg_parnt {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 5px 0;
+  font-size: 0.875rem;
+  background-color: white;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+/* line 530, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.error_msg_parnt.error_multiple {
+  border: 1px solid #d43f3a;
+  padding: 10px;
+}
+
+/* line 533, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.error_msg_parnt.error_multiple .error_icn {
+  margin-right: 0;
+  font-size: 35px;
+  padding: 10px;
+}
+
+/* line 538, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.error_msg_parnt.error_multiple .error_cnt {
+  padding-left: 10px;
+}
+
+/* line 542, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.error_msg_parnt .error_icn {
+  color: #d43f3a;
+  margin-right: 5px;
+}
+
+/* line 546, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.error_msg_parnt .error_cnt {
+  text-align: left;
+}
+
+/* line 548, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.error_msg_parnt .error_cnt h5 {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #d43f3a;
+  padding-left: 0;
+  margin: 0;
+}
+
+/* line 554, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.error_msg_parnt .error_cnt h5::after {
+  display: none;
+}
+
+/* line 561, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.error_msg_parnt .error_cnt h5 a {
+  width: 35px;
+  height: 35px;
+  text-align: right;
+  border-left: 1px solid #d2d2d2;
+  margin-left: 10px;
+}
+
+/* line 567, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.error_msg_parnt .error_cnt h5 a i {
+  font-size: 30px;
+  color: #d2d2d2;
+  margin: 0;
+  width: 100%;
+  display: inline-block;
+}
+
+/* line 574, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.error_msg_parnt .error_cnt h5 a:hover i, .error_msg_parnt .error_cnt h5 a:focus i {
+  color: #414040;
+}
+
+/* line 579, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.error_msg_parnt .error_cnt ul {
+  list-style-type: circle;
+  list-style-position: inside;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+/* line 584, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.error_msg_parnt .error_cnt ul li {
+  font-size: 0.875rem;
+  padding: 5px 0 0;
+  color: #000000;
+}
+
+/* line 596, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.modal-header {
+  padding: 15px;
+}
+
+/* line 599, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.modal-title {
+  font-size: 0.875rem;
+}
+
+/* line 605, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.report_modal .prview_blk {
+  width: 100%;
+  overflow: auto;
+}
+
+/* line 610, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.report_modal #renderPreview > div {
+  width: 100% !important;
+}
+
+/* line 614, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.report_modal .stiJsViewerReportPanel {
+  width: 100%;
+  padding: 5px 0;
+}
+
+/* line 619, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.report_modal .stiJsViewerPage {
+  width: 97%;
+  padding: 7px !important;
+  margin: 0 !important;
+}
+
+/* line 625, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.report_modal .stiJsViewerPage table {
+  width: 100% !important;
+}
+
+/* line 629, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.report_modal .close_rprt_btn {
+  background: none;
+  border: none;
+}
+
+/* line 634, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.report_modal .modal-header {
+  padding: 10px 15px;
+}
+
+/* line 638, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.report_modal .modal-header h4 {
+  font-size: 20px;
+}
+
+/* line 642, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.report_modal .modal-body {
+  padding: 15px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+/* line 649, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+/* line 656, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+/* line 661, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.form-control:focus, .form-select:focus, .btn-check:focus + .btn, .btn:focus {
+  box-shadow: 0 0 2px 2px rgba(13, 110, 253, 0.2);
+}
+
+/* line 665, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.seprator {
+  margin: 0 10px;
+  width: 1px;
+  height: 37px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* line 671, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.div_seprator {
+  width: 100%;
+  height: 1px;
+  background-color: #e5f4ff;
+  margin: 15px 0;
+}
+
+/* line 678, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.upld_blk {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+/* line 682, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.upld_blk .btn {
+  padding: 6px 0;
+  font-size: 0.875rem;
+}
+
+/* line 688, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.upld_blk input[type=file] {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+/* line 698, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.generic_radio_blk {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+/* line 703, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.generic_radio_blk.generic_radio_hgt_auto {
+  height: auto;
+}
+
+/* line 706, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.generic_radio_blk label {
+  font-size: 0.75rem;
+  color: #000000;
+  width: 100%;
+  float: left;
+  margin-bottom: 5px;
+}
+
+/* line 713, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.generic_radio_blk .radio_inr {
+  position: relative;
+  width: auto;
+  float: left;
+  padding-right: 15px;
+}
+
+/* line 719, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.generic_radio_blk .radio_btn {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 726, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.generic_radio_blk .radio_label {
+  padding-left: 20px;
+  font-size: 1rem;
+  position: relative;
+  cursor: pointer;
+  margin-bottom: 0;
+}
+
+/* line 732, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.generic_radio_blk .radio_label:before {
+  position: absolute;
+  content: "";
+  width: 16px;
+  height: 16px;
+  left: 0;
+  top: 4px;
+  font-family: FontAwesome;
+  font-size: 0.9rem;
+  line-height: 1rem;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: inset 0 0 0px 1px #ccc;
+}
+
+/* line 747, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.generic_radio_blk .radio_btn + .radio_label:before {
+  background-color: #fff;
+}
+
+/* line 750, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.generic_radio_blk .radio_btn:checked + .radio_label:before {
+  content: "\f111";
+  font-family: FontAwesome;
+  font-size: 10px;
+  line-height: 17px;
+  color: #135B8F;
+  box-shadow: inset 0 0 0px 2px #135B8F;
+}
+
+/* line 762, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.generic_checkbox_grp {
+  display: inline-block;
+}
+
+/* line 764, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.generic_checkbox_grp .generic_checkbox {
+  float: left !important;
+  margin-right: 5px;
+}
+
+/* line 770, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.checkbox_sngl_labl {
+  font-size: 0.75rem;
+  color: #000000;
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* line 776, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.generic_chckbx_blk {
+  position: relative;
+}
+
+/* line 779, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.generic_chckbx_blk label {
+  font-size: 0.75rem;
+  color: #000000;
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* line 785, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.generic_chckbx_blk .chckbx_inr {
+  position: relative;
+}
+
+/* line 787, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.generic_chckbx_blk .chckbx_inr .chckbx_btn {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 794, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.generic_chckbx_blk .chckbx_inr .chckbx_label {
+  padding-left: 25px;
+  font-size: 1rem;
+  position: relative;
+  cursor: pointer;
+}
+
+/* line 799, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.generic_chckbx_blk .chckbx_inr .chckbx_label::before {
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 20px;
+  left: 0;
+  top: 0;
+  background-color: #d2d2d2;
+  border-radius: 2px;
+}
+
+/* line 813, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.generic_chckbx_blk .chckbx_inr .chckbx_btn:checked + .chckbx_label:before {
+  background: #4A4A4A url("data:image/svg+xml,<svg viewBox='0 0 16 16' fill='%23ffffff' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' d='M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z' clip-rule='evenodd'/></svg>");
+  background-repeat: no-repeat;
+  background-size: 1rem 1rem;
+}
+
+/* line 821, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.form-control:disabled, .form-control[readonly] {
+  background-color: transparent;
+}
+
+/* line 825, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.form-select {
+  background-position: right 0 center;
+}
+
+/* line 829, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.grp_title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  z-index: 0;
+  margin-bottom: 5px;
+}
+
+/* line 836, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.grp_title::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 1px;
+  background-color: #efefef;
+  left: 0;
+  top: 20px;
+  z-index: -1;
+}
+
+/* line 846, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.grp_title label {
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 4px;
+  padding-right: 15px;
+  font-size: 1rem;
+  line-height: 40px;
+  color: #135B8F;
+}
+
+/* line 858, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.grp_title_multpl_btn {
+  background: #fff;
+  border-radius: 25px;
+  position: relative;
+  padding: 2px;
+  height: 40px;
+  border: 1px solid #efefef;
+}
+
+/* line 866, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.grp_title_multpl_btn button {
+  min-width: 35px;
+  width: 35px;
+  height: 35px;
+  top: 0;
+  box-shadow: none;
+  padding: 0;
+  float: none;
+}
+
+/* line 874, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.grp_title_multpl_btn button .bi-plus {
+  font-size: 25px;
+  line-height: 25px;
+}
+
+/* line 878, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.grp_title_multpl_btn button:last-child {
+  margin-right: 0;
+}
+
+/* line 881, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.grp_title_multpl_btn button:hover, .grp_title_multpl_btn button:focus {
+  background-color: #00365c;
+  color: #fff;
+}
+
+/* line 886, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.grp_title_multpl_btn .list_view_tgl {
+  height: 35px;
+  background-color: #ffffff;
+  border-radius: 50% !important;
+  color: #7c7373;
+}
+
+/* line 891, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.grp_title_multpl_btn .list_view_tgl.list_view_on {
+  background-color: #00365c;
+}
+
+/* line 893, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.grp_title_multpl_btn .list_view_tgl.list_view_on i {
+  color: #fff;
+}
+
+/* line 900, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.comn_btn40 {
+  position: relative;
+  min-width: 40px;
+  width: 40px;
+  height: 40px;
+  background-color: #ffffff;
+  padding: 0 !important;
+  border-radius: 50% !important;
+  color: #7c7373;
+  box-shadow: inset 0 0 0 1px #efefef;
+  border: none;
+}
+
+/* line 911, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.comn_btn40:hover, .comn_btn40:focus, .comn_btn40:active {
+  background-color: #00365c;
+  color: #ffffff;
+  box-shadow: inset 0 0 0 1px #00365c;
+}
+
+/* line 917, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.blk_bg_clr {
+  padding-top: 5px;
+}
+
+/* line 921, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.genereic_readonly {
+  margin-bottom: 15px;
+}
+
+/* line 923, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.genereic_readonly label {
+  width: 100%;
+  font-size: 0.8125rem;
+  line-height: 0.8125rem;
+  color: #000000;
+  float: left;
+}
+
+/* line 930, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.genereic_readonly span {
+  width: 100%;
+  display: inline-block;
+  font-size: 0.875rem;
+  color: #000000;
+  height: 35px;
+  padding: 5px 0;
+}
+
+/* line 939, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.generic_inpt {
+  margin-bottom: 15px;
+}
+
+/* line 941, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.generic_inpt label {
+  width: 100%;
+  font-size: 0.75rem;
+  line-height: 0.75rem;
+  color: #000000;
+  float: left;
+}
+
+/* line 948, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.generic_inpt .form-control {
+  font-size: 0.875rem;
+  height: 35px;
+  padding: 5px 0;
+  border: none;
+  border-bottom: 1px solid #d2d2d2;
+  border-radius: 0;
+  background-color: transparent !important;
+  border-radius: 0 !important;
+}
+
+/* line 959, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.generic_textarea {
+  position: relative;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+
+/* line 963, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.generic_textarea label {
+  font-size: 0.75rem;
+  line-height: 0.75rem;
+  color: #000000;
+  border: none !important;
+  width: 100%;
+  float: left;
+}
+
+/* line 971, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.generic_textarea textarea {
+  font-size: 0.875rem;
+  padding: 0;
+  border: none;
+  border-bottom: 1px solid #d2d2d2;
+  border-radius: 0;
+  height: 80px !important;
+  resize: none;
+  border-radius: 0 !important;
+}
+
+/* line 981, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.generic_textarea .form-control:not(:placeholder-shown) ~ label {
+  padding-top: 0;
+}
+
+/* line 984, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.generic_textarea .form-control:focus, .generic_textarea .form-control:not(:placeholder-shown) {
+  padding: 0;
+}
+
+/* line 987, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.generic_textarea .chractr_count {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  right: 0;
+  font-size: 0.6875rem;
+}
+
+/* line 995, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.generic_date {
+  position: relative;
+  display: inline-block;
+  z-index: 0;
+  margin-bottom: 15px;
+}
+
+/* line 1000, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.generic_date span {
+  position: relative;
+  max-width: 98px;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+/* line 1005, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.generic_date span:after {
+  position: absolute;
+  content: "\f217";
+  font-family: Bootstrap-icons;
+  font-size: 18px;
+  line-height: 18px;
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  right: 1px;
+  bottom: 9px;
+  z-index: -1;
+  cursor: pointer;
+  color: #7c7373;
+}
+
+/* line 1020, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.generic_date span:last-child {
+  margin-right: 0;
+}
+
+/* line 1024, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.generic_date.read_only input {
+  border-bottom: 1px solid #7D314C;
+}
+
+/* line 1027, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.generic_date.read_only label {
+  color: #7D314C;
+}
+
+/* line 1030, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.generic_date.read_only span:after {
+  color: #7D314C;
+}
+
+/* line 1033, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.generic_date label {
+  font-size: 0.75rem;
+  line-height: 0.75rem;
+  color: #000000;
+  width: 100%;
+  float: left;
+}
+
+/* line 1040, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.generic_date input {
+  font-size: 0.875rem;
+  height: 35px;
+  padding: 5px 0;
+  border: none;
+  border-bottom: 1px solid #d2d2d2;
+  border-radius: 0;
+  width: 100%;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+/* line 1050, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.generic_date input:focus {
+  background-color: transparent;
+}
+
+/* line 1054, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.generic_date .ui-widget.ui-widget-content {
+  font-size: 0.875rem;
+}
+
+/* line 1058, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.generic_drpdwn {
+  margin-bottom: 15px;
+}
+
+/* line 1060, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.generic_drpdwn label {
+  font-size: 0.75rem;
+  line-height: 0.75rem;
+  color: #000000;
+  width: 100%;
+  float: left;
+}
+
+/* line 1067, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.generic_drpdwn .form-select {
+  font-size: 0.875rem;
+  height: 35px;
+  padding: 5px 0;
+  border: none;
+  border-bottom: 1px solid #d2d2d2;
+  border-radius: 0;
+  background-color: transparent;
+}
+
+/* line 1078, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.read_only_parnt {
+  background-color: #f1f9ff;
+  border-radius: 5px;
+  padding: 15px;
+  box-shadow: 0 0 3px 2px rgba(174, 212, 239, 0.3);
+  border: 1px solid #cde9ff;
+}
+
+/* line 1084, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.read_only_parnt ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 1088, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.read_only_parnt ul li {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.875rem;
+  line-height: 0.875rem;
+  margin-bottom: 15px;
+}
+
+/* line 1094, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.read_only_parnt ul li:last-child {
+  margin-bottom: 0;
+}
+
+/* line 1097, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.read_only_parnt ul li span {
+  flex-shrink: 0;
+  width: 100px;
+  font-weight: 600;
+}
+
+/* line 1104, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.read_only_parnt .read_only_txt {
+  font-size: 0.9rem;
+  padding: 0 10px;
+}
+
+/* line 1107, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.read_only_parnt .read_only_txt label {
+  margin-right: 10px;
+}
+
+/* line 1110, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.read_only_parnt .read_only_txt span {
+  font-weight: 600;
+}
+
+/* line 1115, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.shrtst_wdth {
+  width: 58px !important;
+  margin-right: 5px;
+}
+
+/* line 1120, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.shrt_wdth {
+  width: 98px !important;
+  margin-right: 5px;
+}
+
+/* line 1125, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.grd_parnt_blk {
+  position: relative;
+}
+
+/* line 1127, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.grd_parnt_blk .demo-container {
+  width: 100%;
+  overflow: auto;
+}
+
+/* line 1133, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.multi_optn_drp {
+  height: auto;
+  width: 100%;
+  display: inline-block;
+}
+
+/* line 1144, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.multi_optn_drp .chosen-container-multi .chosen-choices {
+  border-bottom: 1px solid #B9C1CA;
+  line-height: 35px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  box-shadow: none;
+  border-radius: 0;
+  text-align: left;
+  padding: 0;
+  background: transparent !important;
+  cursor: pointer;
+  min-height: unset;
+}
+
+/* line 1159, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.multi_optn_drp .chosen-container-multi .chosen-choices li.search-choice {
+  background: #fff !important;
+  color: #000000;
+  padding: 0 40px 0 0;
+  border: none;
+  border-radius: 0;
+  height: 34px;
+  position: relative;
+  box-shadow: none;
+}
+
+/* line 1169, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.multi_optn_drp .chosen-container-multi .chosen-choices li.search-choice:after {
+  position: absolute;
+  content: "";
+  background-color: #4A4A4A;
+  width: 1px;
+  height: 15px;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  padding: 0;
+  margin: auto 0;
+}
+
+/* line 1182, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.multi_optn_drp .chosen-container-multi .chosen-choices li.search-choice .search-choice-close {
+  width: 26px;
+  height: 26px;
+  border-radius: 20px;
+  top: 3px;
+  right: 7px;
+  background: none;
+}
+
+/* line 1189, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.multi_optn_drp .chosen-container-multi .chosen-choices li.search-choice .search-choice-close:before {
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: url("data:image/svg+xml,<svg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' d='M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z' clip-rule='evenodd'/></svg>");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-block;
+  top: 4px;
+  right: 3px;
+  border-radius: 2px;
+  opacity: 0.5;
+}
+
+/* line 1203, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.multi_optn_drp .chosen-container-multi .chosen-choices li.search-choice .search-choice-close:hover {
+  background-color: #135B8F;
+}
+
+/* line 1205, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.multi_optn_drp .chosen-container-multi .chosen-choices li.search-choice .search-choice-close:hover::before {
+  background: url("data:image/svg+xml,<svg viewBox='0 0 16 16' fill='%23fff' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' d='M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z' clip-rule='evenodd'/></svg>");
+  opacity: 1;
+}
+
+/* line 1213, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.lbl_bld {
+  font-weight: 600;
+}
+
+/* line 1218, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.change_passwrd_mdl {
+  max-width: 350px;
+  margin: auto;
+  text-align: center;
+  padding: 15px 0 0;
+  border-radius: 5px;
+}
+
+/* line 1224, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.change_passwrd_mdl .change_passwrd_clse {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 25px;
+  line-height: 25px;
+  background: transparent;
+  color: #7c7373;
+}
+
+/* line 1232, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.change_passwrd_mdl .change_passwrd_clse:hover, .change_passwrd_mdl .change_passwrd_clse:focus {
+  background-color: #135B8F;
+  color: #ffffff;
+}
+
+/* line 1237, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.change_passwrd_mdl .error_msg_parnt {
+  text-align: center;
+}
+
+/* line 1239, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.change_passwrd_mdl .error_msg_parnt h5 {
+  display: inline-block;
+}
+
+/* line 1243, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.change_passwrd_mdl .relogin_grp_inr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+/* line 1249, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.change_passwrd_mdl img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #fff;
+  outline: 1px solid #efefef;
+  margin: -80px auto 0;
+  padding: 3px;
+}
+
+/* line 1258, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.change_passwrd_mdl .change_passwrd_svg {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #fff;
+  outline: 1px solid #efefef;
+  margin: -80px auto 0;
+  padding: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 1269, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.change_passwrd_mdl .change_passwrd_svg svg {
+  width: 60px;
+  height: 60px;
+  fill: #135B8F;
+}
+
+/* line 1275, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.change_passwrd_mdl label {
+  display: block;
+  font-size: 1.125rem !important;
+  margin: 10px 0;
+}
+
+/* line 1280, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.change_passwrd_mdl .input-group {
+  width: 100%;
+  margin: 0 0 10px;
+}
+
+/* line 1284, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.change_passwrd_mdl input {
+  text-align: left;
+  padding: 7px;
+}
+
+/* line 1288, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.change_passwrd_mdl button {
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  background-color: #dddddd;
+  border-radius: 50%;
+  transition: all ease-in-out .3s;
+  border: none;
+}
+
+/* line 1296, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.change_passwrd_mdl button svg {
+  fill: #000000;
+  width: 32px;
+  height: 32px;
+}
+
+/* line 1301, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.change_passwrd_mdl button:hover, .change_passwrd_mdl button:focus, .change_passwrd_mdl button:active {
+  background-color: #005384;
+}
+
+/* line 1303, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.change_passwrd_mdl button:hover svg, .change_passwrd_mdl button:focus svg, .change_passwrd_mdl button:active svg {
+  fill: #ffffff;
+}
+
+/* line 1311, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.master-grid-btn {
+  position: absolute;
+  bottom: 27px;
+  background: transparent;
+  border: none;
+  cursor: pointer !important;
+  z-index: 1;
+  padding-left: 40px;
+}
+
+/* line 1319, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.master-grid-btn:after {
+  position: absolute;
+  content: '\F4FE';
+  font-size: 20px;
+  line-height: 33px;
+  font-family: Bootstrap-Icons;
+  color: #135B8F;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #d4e8f7;
+  border: 1px solid #a6cbe5;
+  left: 0;
+  bottom: -6px;
+}
+
+/* line 1336, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.mandtry_cls {
+  font-size: 0.875rem;
+  line-height: 0.25rem;
+  color: #d31f1f;
+  margin-left: 1px;
+}
+
+/* line 1343, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.chosen-container-multi .chosen-choices li.search-field {
+  position: relative;
+}
+
+@keyframes cursor-blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* line 1351, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.chosen-container-multi .chosen-choices li.search-field input[type="text"]:focus {
+  caret-color: transparent;
+}
+
+/* line 1355, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.blink::after {
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 2px;
+  background: #135B8F;
+  display: inline-block;
+  animation: cursor-blink 1s infinite;
+  top: 23px;
+  right: 0;
+}
+
+/* line 1367, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.grd_read_only {
+  cursor: no-drop;
+}
+
+/* line 1371, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.button_blk.btn_cntr_algn {
+  justify-content: center !important;
+  position: relative;
+  z-index: 0;
+  border-top: none !important;
+  padding: 0;
+  margin-bottom: 15px;
+}
+
+/* line 1378, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.button_blk.btn_cntr_algn:after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 1px;
+  background-color: #d4e8f7;
+  left: 0;
+  top: 20px !important;
+  z-index: -1;
+}
+
+/* line 1388, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.button_blk.btn_cntr_algn button {
+  margin: 0;
+}
+
+/* line 1390, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.button_blk.btn_cntr_algn button:hover, .button_blk.btn_cntr_algn button:focus, .button_blk.btn_cntr_algn button:active {
+  background-color: #cae2f4 !important;
+  color: #000000 !important;
+}
+
+/* line 1398, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.validatn_cls label {
+  color: #dc3545;
+}
+
+/* line 1401, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.validatn_cls input.form-control {
+  border-color: #dc3545;
+  background-image: url("data:image/svg+xml;charset=UTF-8, %3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' width='12' height='12' fill='none' stroke='%23dc3545'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%23dc3545' stroke='none'/%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right calc(0.375em + 0.1875rem) center;
+  background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
+}
+
+/* line 1408, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.validatn_cls .form-select {
+  padding-right: 4.125rem;
+  background-image: url("data:image/svg+xml;charset=UTF-8, %3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e"), url("data:image/svg+xml;charset=UTF-8, %3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' width='12' height='12' fill='none' stroke='%23dc3545'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%23dc3545' stroke='none'/%3e%3c/svg%3e");
+  background-position: right 0.75rem center,center right 2.25rem;
+  background-size: 16px 12px, calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
+  border-color: #dc3545;
+}
+
+/* line 1416, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.validatn_cls.generic_date .form-control {
+  background-image: none;
+}
+
+/* line 1419, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.validatn_cls.generic_date span::after {
+  color: #dc3545;
+}
+
+/* line 1425, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.button_blk {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+  border-top: 1px solid #efefef;
+  padding-top: 15px;
+}
+
+/* line 1432, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.button_blk.no_button_brd {
+  border-top: none;
+}
+
+/* line 1435, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.button_blk button {
+  font-size: 0.875rem;
+  padding: 7px 15px !important;
+  margin: 0 5px 5px 0;
+  height: 40px;
+  border-radius: 4px !important;
+  font-family: "Roboto", sans-serif;
+  transition: all ease .3s;
+}
+
+/* line 1443, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.button_blk button svg {
+  margin-right: 5px;
+  top: -2px;
+  position: relative;
+}
+
+/* line 1447, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.button_blk button svg.bi-key {
+  top: 0;
+}
+
+/* line 1451, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.button_blk button i {
+  margin-right: 5px;
+}
+
+/* line 1454, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.button_blk button.prmry_btn {
+  border: 1px solid #135B8F !important;
+  background-color: #135B8F;
+  color: #ffffff;
+}
+
+/* line 1458, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.button_blk button.prmry_btn:hover, .button_blk button.prmry_btn:active, .button_blk button.prmry_btn:focus {
+  background-color: #104e7c;
+  color: #fff;
+}
+
+/* line 1463, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.button_blk button.prmry_lg_btn {
+  background: #d4e8f7;
+  color: #000000;
+  border-color: #a6cbe5 !important;
+}
+
+/* line 1467, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.button_blk button.prmry_lg_btn:hover, .button_blk button.prmry_lg_btn:active, .button_blk button.prmry_lg_btn:focus {
+  background-color: #cae2f4;
+  color: #fff;
+}
+
+/* line 1472, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.button_blk button.scndry_btn {
+  border-color: #4F5A65 !important;
+  background-color: #4F5A65;
+  color: #ffffff;
+}
+
+/* line 1476, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.button_blk button.scndry_btn:hover, .button_blk button.scndry_btn:active, .button_blk button.scndry_btn:focus {
+  background-color: #414950;
+  color: #fff;
+}
+
+/* line 1481, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.button_blk button.custm_btn {
+  border: 1px solid #ced4da;
+  background-color: #eaedf1;
+  color: #000000;
+}
+
+/* line 1485, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.button_blk button.custm_btn:hover {
+  background-color: #4A4A4A;
+  color: #ffffff;
+}
+
+/* line 1495, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.blk_bg_clr {
+  padding-top: 15px;
+}
+
+/* line 1499, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.rmg_lst_btn, .rmg_lst_mdl {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background-color: #4F5A65;
+  padding: 0 !important;
+  border-radius: 50% !important;
+}
+
+/* line 1506, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.rmg_lst_btn i, .rmg_lst_mdl i {
+  font-size: 21px;
+  color: #ffffff;
+  margin-right: 0;
+}
+
+/* line 1511, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.rmg_lst_btn:hover, .rmg_lst_mdl:hover {
+  background-color: #00365c;
+}
+
+/* line 1515, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.srch_btn {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background-color: #135B8F;
+  padding: 0 !important;
+  border-radius: 50% !important;
+}
+
+/* line 1522, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.srch_btn i {
+  font-size: 21px;
+  color: #ffffff;
+  margin-right: 0;
+}
+
+/* line 1527, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.srch_btn:hover {
+  background-color: #00365c;
+}
+
+/* line 1532, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.downld_file, .del_rnd_btn, .add_btn {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  margin-left: auto;
+  background-color: #6c757d;
+  padding: 0 !important;
+  border-radius: 50% !important;
+}
+
+/* line 1540, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.downld_file i, .del_rnd_btn i, .add_btn i {
+  font-size: 21px;
+  color: #ffffff;
+  margin-right: 0 !important;
+}
+
+/* line 1545, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.downld_file:hover, .del_rnd_btn:hover, .add_btn:hover {
+  background-color: #00365c;
+}
+
+/* line 1550, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.del_rnd_inp_btn {
+  width: 40px;
+  height: 40px;
+  background-color: #f2faff;
+  border-radius: 50%;
+  padding: 0;
+  transition: all ease 0.3s;
+  box-shadow: inset 0 0 1px 1px #dcf1ff;
+  color: #135B8F;
+}
+
+/* line 1559, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.del_rnd_inp_btn:hover, .del_rnd_inp_btn:focus {
+  background-color: #135B8F;
+  color: #ffffff;
+  box-shadow: inset 0 0 1px 1px #135B8F;
+}
+
+/* line 1565, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.add_btn i {
+  font-size: 13px;
+}
+
+/* line 1568, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.title_blk .add_btn i {
+  font-size: 21px;
+}
+
+/* line 1571, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.grd_add_btn {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background-color: #6c757d;
+  border-radius: 50%;
+  float: right;
+  top: 5px;
+  right: 10px;
+}
+
+/* line 1580, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.grd_add_btn::after {
+  position: absolute;
+  content: "\F4FE";
+  font-family: "Bootstrap-icons";
+  font-size: 21px;
+  line-height: 40px;
+  color: #ffffff;
+  right: 0;
+  top: 0;
+  left: 0;
+}
+
+/* line 1591, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.grd_add_btn:hover, .grd_add_btn:focus {
+  background-color: #5d6770;
+}
+
+/* line 1595, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.title_blk {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  padding-bottom: 10px;
+}
+
+/* line 1600, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.title_blk.title_brd {
+  border-bottom: 2px solid #d2d2d2;
+}
+
+/* line 1603, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.title_blk.title_brd .tabs_blk {
+  margin-left: 10px;
+}
+
+/* line 1605, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.title_blk.title_brd .tabs_blk .nav-tabs {
+  border-bottom: none;
+}
+
+/* line 1608, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.title_blk.title_brd .tabs_blk .nav-link {
+  padding: 8px 12px;
+  border-radius: 4px 4px 0 0;
+  border-right: none;
+}
+
+/* line 1612, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.title_blk.title_brd .tabs_blk .nav-link.active {
+  border: 1px solid #135B8F;
+}
+
+/* line 1615, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.title_blk.title_brd .tabs_blk .nav-link label {
+  cursor: pointer;
+}
+
+/* line 1618, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.title_blk.title_brd .tabs_blk .nav-link i {
+  margin-right: 0;
+  font-size: 0.875rem;
+}
+
+/* line 1626, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.title_blk h2 {
+  font-size: 1.25rem;
+  line-height: 1.4rem;
+  position: relative;
+  margin: 0;
+  border-radius: 0;
+  color: #000000;
+}
+
+/* line 1634, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.title_blk i {
+  margin-right: 5px;
+}
+
+/* line 1639, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.left_arrow_icn, .edit_btn_icn {
+  font-size: 0.875rem;
+}
+
+/* line 1643, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.check_in_icn {
+  font-size: 0.875rem;
+  line-height: 1.2rem;
+}
+
+/* line 1648, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.cash_btn_icn {
+  font-size: 0.875rem;
+  line-height: 1.2rem;
+}
+
+/* line 1652, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.anchr_clr {
+  color: #2b46b7 !important;
+  cursor: pointer;
+}
+
+/* line 1656, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.blk_pstn_abslt {
+  position: absolute;
+  bottom: 5px;
+  border-top: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 1663, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.grp_chckin_icn {
+  width: 15px;
+  height: 15px;
+  background-image: url("data:image/svg+xml,<svg viewBox='0 0 16 16' fill='%238e9ba7' xmlns='http://www.w3.org/2000/svg'><path d='M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z'/><path d='M5.216 14A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216z'/><path d='M4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z' clip-rule='evenodd'/></svg>");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+/* line 1671, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.dx-datagrid .dx-column-lines > td:last-child a:hover .grp_chckin_icn {
+  background-image: url("data:image/svg+xml,<svg viewBox='0 0 16 16' fill='%23135B8F' xmlns='http://www.w3.org/2000/svg'><path d='M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z'/><path d='M5.216 14A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216z'/><path d='M4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z' clip-rule='evenodd'/></svg>");
+}
+
+/* line 1674, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.location_icn_new {
+  width: 15px;
+  height: 15px;
+  background-image: url("data:image/svg+xml,<svg viewBox='0 0 16 16' fill='%238e9ba7' xmlns='http://www.w3.org/2000/svg'><path d='M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z' clip-rule='evenodd'/></svg>");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+/* line 1682, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.dx-datagrid .dx-column-lines > td:last-child a:hover .location_icn_new {
+  background-image: url("data:image/svg+xml,<svg viewBox='0 0 16 16' fill='%23135B8F' xmlns='http://www.w3.org/2000/svg'><path d='M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z' clip-rule='evenodd'/></svg>");
+}
+
+/* line 1685, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.advn_dpt_icn {
+  width: 15px;
+  height: 15px;
+  background-image: url("data:image/svg+xml,<svg viewBox='0 0 16 16' fill='%238e9ba7' xmlns='http://www.w3.org/2000/svg'><path d='M8 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4z'/><path d='M0 4a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V4zm3 0a2 2 0 0 1-2 2v4a2 2 0 0 1 2 2h10a2 2 0 0 1 2-2V6a2 2 0 0 1-2-2H3z' clip-rule='evenodd'/></svg>");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+/* line 1694, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.dx-datagrid .dx-column-lines > td:last-child a:hover .advn_dpt_icn {
+  background-image: url("data:image/svg+xml,<svg viewBox='0 0 16 16' fill='%23135B8F' xmlns='http://www.w3.org/2000/svg'><path d='M8 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4z'/><path d='M0 4a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V4zm3 0a2 2 0 0 1-2 2v4a2 2 0 0 1 2 2h10a2 2 0 0 1 2-2V6a2 2 0 0 1-2-2H3z' clip-rule='evenodd'/></svg>");
+}
+
+/* line 1697, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.modify_icn {
+  width: 15px;
+  height: 15px;
+  background-image: url("data:image/svg+xml,<svg viewBox='0 0 16 16' fill='%238e9ba7' xmlns='http://www.w3.org/2000/svg'><path d='M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z'/><path d='M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z' clip-rule='evenodd'/></svg>");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+/* line 1707, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.dx-datagrid .dx-column-lines > td:last-child a:hover .modify_icn {
+  background-image: url("data:image/svg+xml,<svg viewBox='0 0 16 16' fill='%23135B8F' xmlns='http://www.w3.org/2000/svg'><path d='M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z'/><path d='M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z' clip-rule='evenodd'/></svg>");
+}
+
+/* line 1712, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.tick_icn {
+  width: 15px;
+  height: 15px;
+  background-image: url("data:image/svg+xml,<svg viewBox='0 0 16 16' fill='%238e9ba7' xmlns='http://www.w3.org/2000/svg'><path d='M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z' clip-rule='evenodd'/></svg>");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+/* line 1721, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.dx-datagrid .dx-column-lines > td:last-child a:hover .tick_icn {
+  background-image: url("data:image/svg+xml,<svg viewBox='0 0 16 16' fill='%23135B8F' xmlns='http://www.w3.org/2000/svg'><path d='M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z' clip-rule='evenodd'/></svg>");
+}
+
+/* line 1724, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.print_icn {
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  background-image: url("data:image/svg+xml,<svg viewBox='0 0 16 16' fill='%23828b94' xmlns='http://www.w3.org/2000/svg'><path d='M5 1a2 2 0 0 0-2 2v1h10V3a2 2 0 0 0-2-2H5zm6 8H5a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1z'/><path d='M0 7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2h-1v-2a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v2H2a2 2 0 0 1-2-2V7zm2.5 1a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1z' clip-rule='evenodd'/></svg>");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* line 1733, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.dx-datagrid .dx-column-lines > td:last-child a:hover .print_icn {
+  background-image: url("data:image/svg+xml,<svg viewBox='0 0 16 16' fill='%23135B8F' xmlns='http://www.w3.org/2000/svg'><path d='M5 1a2 2 0 0 0-2 2v1h10V3a2 2 0 0 0-2-2H5zm6 8H5a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1z'/><path d='M0 7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2h-1v-2a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v2H2a2 2 0 0 1-2-2V7zm2.5 1a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1z' clip-rule='evenodd'/></svg>");
+}
+
+/* line 1737, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.gust_msg_icn {
+  width: 15px;
+  height: 15px;
+  background-image: url("data:image/svg+xml,<svg viewBox='0 0 16 16' fill='%238e9ba7' xmlns='http://www.w3.org/2000/svg'><path d='M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z' clip-rule='evenodd'/></svg>");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+/* line 1746, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.dx-datagrid .dx-column-lines > td:last-child a:hover .gust_msg_icn {
+  background-image: url("data:image/svg+xml,<svg viewBox='0 0 16 16' fill='%23135B8F' xmlns='http://www.w3.org/2000/svg'><path d='M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z' clip-rule='evenodd'/></svg>");
+}
+
+/* line 1750, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.grdscrh_icn {
+  width: 15px;
+  height: 15px;
+  background-image: url("data:image/svg+xml,<svg viewBox='0 0 16 16' fill='%238e9ba7' xmlns='http://www.w3.org/2000/svg'><path d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z' clip-rule='evenodd'/></svg>");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+/* line 1759, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.dx-datagrid .dx-column-lines > td:last-child a:hover .grdscrh_icn {
+  background-image: url("data:image/svg+xml,<svg viewBox='0 0 16 16' fill='%23135B8F' xmlns='http://www.w3.org/2000/svg'><path d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z' clip-rule='evenodd'/></svg>");
+}
+
+/* line 1763, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.printgrd_icn {
+  width: 15px;
+  height: 15px;
+  background-image: url("data:image/svg+xml,<svg viewBox='0 0 16 16' fill='%238e9ba7' xmlns='http://www.w3.org/2000/svg'><path d='M5 1a2 2 0 0 0-2 2v1h10V3a2 2 0 0 0-2-2H5zm6 8H5a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1z'/><path d='M0 7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2h-1v-2a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v2H2a2 2 0 0 1-2-2V7zm2.5 1a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1z' clip-rule='evenodd'/></svg>");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+/* line 1772, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.dx-datagrid .dx-column-lines > td:last-child a:hover .printgrd_icn {
+  background-image: url("data:image/svg+xml,<svg viewBox='0 0 16 16' fill='%23135B8F' xmlns='http://www.w3.org/2000/svg'><path d='M5 1a2 2 0 0 0-2 2v1h10V3a2 2 0 0 0-2-2H5zm6 8H5a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1z'/><path d='M0 7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2h-1v-2a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v2H2a2 2 0 0 1-2-2V7zm2.5 1a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1z' clip-rule='evenodd'/></svg>");
+}
+
+/* line 1775, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.report_blk {
+  position: relative;
+}
+
+/* line 1777, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.report_blk .demo-container {
+  overflow: auto;
+}
+
+/* line 1780, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.report_blk .prview_blk {
+  position: relative;
+  height: 610px;
+  z-index: 0;
+  width: 100%;
+  overflow: auto;
+}
+
+/* line 1787, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.report_blk h3 {
+  font-size: 0.875rem;
+}
+
+/* line 1790, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.report_blk .stiJsViewerParentMenu {
+  width: auto !important;
+  display: inline-block;
+  background-color: #fff;
+}
+
+/* line 1795, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.report_blk .stiJsViewerReportPanel {
+  z-index: -1;
+  top: 41px !important;
+}
+
+/* line 1799, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.report_blk .stiJsViewerClearAllStyles {
+  font-size: 0.8125rem;
+}
+
+/* line 1802, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.report_blk .stiJsViewerPageShadow {
+  margin: 0 !important;
+}
+
+/* line 1807, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.tabs_blk .tab-content {
+  padding: 10px 0;
+}
+
+/* line 1810, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.tabs_blk .nav-link {
+  color: #000000;
+  background-color: #f9f9f9;
+  border-color: #dee2e6;
+  font-size: 0.875rem;
+  padding: 10px 12px;
+  border-radius: 4px 4px 0 0;
+}
+
+/* line 1817, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.tabs_blk .nav-link.no-click-tab-btn {
+  background-color: transparent;
+  padding-left: 0;
+  padding-right: 0;
+  border: none;
+  border-right: none !important;
+}
+
+/* line 1825, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.tabs_blk .nav-link i {
+  font-size: 19px;
+  line-height: 20px;
+}
+
+/* line 1829, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.tabs_blk .nav-link svg {
+  fill: #000;
+  position: relative;
+  top: -3px;
+  height: 20px;
+}
+
+/* line 1834, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.tabs_blk .nav-link svg.vst_detls_icn {
+  width: 31px;
+}
+
+/* line 1837, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.tabs_blk .nav-link svg.arrvl_dprt_icn {
+  width: 37px;
+}
+
+/* line 1841, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.tabs_blk .nav-link label {
+  cursor: pointer;
+}
+
+/* line 1845, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.tabs_blk .nav-item:last-child .nav-link {
+  border-right: 1px solid #dee2e6;
+}
+
+/* line 1848, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.tabs_blk .nav-tabs .nav-link.no-click-tab-btn:hover, .tabs_blk .nav-tabs .nav-link.no-click-tab-btn:focus, .tabs_blk .nav-tabs .nav-link.active.no-click-tab-btn {
+  background-color: transparent;
+  color: #000000;
+  cursor: default;
+}
+
+/* line 1853, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.tabs_blk .nav-tabs .nav-item.show .nav-link, .tabs_blk .nav-tabs .nav-link.active, .tabs_blk .nav-tabs .nav-link:focus, .tabs_blk .nav-tabs .nav-link:hover {
+  color: #ffffff;
+  background-color: #135B8F;
+  border-color: #dee2e6 #dee2e6 #135B8F;
+}
+
+/* line 1859, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.tabs_blk .nav-tabs .nav-link:focus svg, .tabs_blk .nav-tabs .nav-link:hover svg, .tabs_blk .nav-tabs .nav-link.active svg {
+  fill: #fff;
+}
+
+/* line 1863, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.button_blk.room_detl_btn {
+  text-align: right;
+  padding: 0;
+  margin: 0;
+  flex-wrap: nowrap;
+  border-top: none;
+  justify-content: flex-end;
+}
+
+/* line 1870, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.button_blk.room_detl_btn button {
+  padding: 0 2px !important;
+  color: #135B8F;
+  margin-right: 5px !important;
+  width: 25px;
+  height: 25px;
+  border: none;
+  background-color: transparent;
+}
+
+/* line 1878, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.button_blk.room_detl_btn button:last-child {
+  margin: 0;
+}
+
+/* line 1881, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.button_blk.room_detl_btn button i {
+  margin-right: 0;
+  color: #000000;
+}
+
+/* line 1885, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.button_blk.room_detl_btn button:hover, .button_blk.room_detl_btn button:focus {
+  background-color: #135B8F;
+  border-color: #135B8F;
+}
+
+/* line 1888, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.button_blk.room_detl_btn button:hover i, .button_blk.room_detl_btn button:focus i {
+  color: #ffffff;
+}
+
+/* line 1894, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.indicators_cls {
+  display: block;
+  font-size: 0.875rem;
+}
+
+/* line 1899, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+#progress {
+  display: block;
+  width: 400px;
+}
+
+/* line 1904, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+#progress .bar {
+  height: 24px;
+  width: 0%;
+  background: lightblue;
+  text-align: center;
+}
+
+/* line 1911, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.upload_file {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 200px;
+  height: 35px;
+  position: relative;
+  margin-right: 5px;
+}
+
+/* line 1919, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.upload_file .upload_file_inr {
+  display: flex;
+}
+
+/* line 1922, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.upload_file .upload_file_inr input {
+  border: none;
+}
+
+/* line 1928, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.upload_icn_blk {
+  position: relative;
+  width: 35px;
+  height: 35px;
+}
+
+/* line 1932, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.upload_icn_blk:after {
+  position: absolute;
+  content: "";
+  width: 35px;
+  height: 35px;
+  background: transparent url("data:image/svg+xml,<svg viewBox='0 0 18 18' fill='%23666' xmlns='http://www.w3.org/2000/svg'><path d='M8.5 11.5a.5.5 0 0 1-1 0V7.707L6.354 8.854a.5.5 0 1 1-.708-.708l2-2a.5.5 0 0 1 .708 0l2 2a.5.5 0 0 1-.708.708L8.5 7.707V11.5z'/><path d='M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2zM9.5 3A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5v2z' clip-rule='evenodd'/></svg>");
+  top: 0;
+  left: 0;
+  z-index: -1;
+  border-radius: 50%;
+  background-size: 18px;
+  background-repeat: no-repeat;
+  background-position: 10px;
+}
+
+/* line 1946, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.upload_icn_blk:hover:after {
+  background: #00365c url("data:image/svg+xml,<svg viewBox='0 0 18 18' fill='%23fff' xmlns='http://www.w3.org/2000/svg'><path d='M8.5 11.5a.5.5 0 0 1-1 0V7.707L6.354 8.854a.5.5 0 1 1-.708-.708l2-2a.5.5 0 0 1 .708 0l2 2a.5.5 0 0 1-.708.708L8.5 7.707V11.5z'/><path d='M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2zM9.5 3A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5v2z' clip-rule='evenodd'/></svg>");
+  background-size: 18px;
+  background-repeat: no-repeat;
+  background-position: 10px;
+}
+
+/* line 1953, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.file {
+  display: none;
+}
+
+/* line 1957, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.file-name {
+  position: relative;
+  overflow: hidden;
+  min-width: 35px;
+  height: 35px;
+  border-radius: 0;
+  padding: 5px;
+  font-size: 0.875rem;
+}
+
+/* line 1966, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.btn00 {
+  opacity: 0;
+  border: none;
+  border-radius: 0;
+  width: 35px;
+  height: 35px;
+  color: #FFF;
+  position: relative;
+  cursor: pointer;
+}
+
+/* line 1978, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.clck_pckr_dv {
+  position: relative;
+  width: 115px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* line 1983, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.clck_pckr_dv:after {
+  position: absolute;
+  content: "";
+  background-image: url("data:image/svg+xml,<svg viewBox='0 0 18 18' fill='%23292929' xmlns='http://www.w3.org/2000/svg'><path d='M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z'/><path d='M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z' clip-rule='evenodd'/></svg>");
+  width: 18px;
+  height: 18px;
+  right: 0;
+  top: 2px;
+  display: inline-block;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/* line 1996, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.clck_pckr_dv .clck_pckr {
+  cursor: pointer;
+}
+
+/* line 2002, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.bi-exclamation-triangle-fill.modal_warng_icn::before {
+  color: red;
+  margin-right: 5px;
+}
+
+/* line 2008, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.room_custm_radio .room_radio_inr {
+  position: relative;
+  top: -4px;
+}
+
+/* line 2012, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.room_custm_radio .radio_inr {
+  padding-right: 5px;
+}
+
+/* line 2014, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.room_custm_radio .radio_inr:last-child {
+  padding-right: 0;
+}
+
+/* line 2018, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.room_custm_radio .radio_label {
+  background-color: #857d7d;
+  border-radius: 2px;
+  padding: 0 8px;
+  color: #ffffff;
+}
+
+/* line 2023, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.room_custm_radio .radio_label:before {
+  display: none;
+}
+
+/* line 2027, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.room_custm_radio .radio_btn:checked + .radio_label {
+  background-color: #135B8F;
+}
+
+/* line 2032, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.room_error_list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 2036, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.room_error_list li {
+  font-size: 0.875rem;
+  position: relative;
+  padding-left: 20px;
+}
+
+/* line 2040, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.room_error_list li::before {
+  position: absolute;
+  content: "\f00d";
+  font-family: FontAwesome;
+  left: 0;
+  top: 0;
+  color: #135B8F;
+}
+
+/* line 2048, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.room_error_list li label {
+  color: #d43f3a;
+}
+
+/* line 2054, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.scrh_sngl_labl {
+  font-size: 0.8rem;
+  color: #000000;
+  width: 100%;
+  float: left;
+  margin-bottom: 5px;
+}
+
+/* line 2062, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.scrh_crtr_grp_blk .generic_radio_blk {
+  height: auto;
+}
+
+/* line 2067, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.exp_clps_btn {
+  background-color: #135B8F;
+  color: #ffffff;
+  font-size: 1.2rem;
+  width: 100%;
+  text-align: left;
+  border-radius: 4px;
+}
+
+/* line 2074, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.exp_clps_btn i {
+  float: right;
+  transition: all ease .3s;
+}
+
+/* line 2078, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.exp_clps_btn.arrow_tgl i {
+  transform: rotate(180deg);
+}
+
+/* line 2081, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.exp_clps_btn:hover {
+  color: #ffffff;
+}
+
+/* line 2085, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.exp_clps_btn.arrow_tgl {
+  border-radius: 4px 4px 0 0;
+  box-shadow: -1px 0 0 #4A4A4A, 1px 0px 0 0 #135B8F;
+}
+
+/* line 2089, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.exp_clps_btn.arrow_tgl + .room_bg_blk {
+  border-radius: 0 0 4px 4px;
+}
+
+/* line 2092, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.cln_drty_indctr {
+  margin-bottom: 10px;
+}
+
+/* line 2094, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.cln_drty_indctr ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: inline-block;
+}
+
+/* line 2099, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.cln_drty_indctr ul li {
+  position: relative;
+  padding: 0 20px 0 25px;
+  float: left;
+}
+
+/* line 2103, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.cln_drty_indctr ul li::before {
+  position: absolute;
+  content: "";
+  width: 1px;
+  height: 15px;
+  background-color: #d2d2d2;
+  right: 10px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+/* line 2114, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.cln_drty_indctr ul li:last-child::before {
+  display: none;
+}
+
+/* line 2117, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.cln_drty_indctr ul li:after {
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  left: 0;
+  top: 3px;
+  background-color: #8bc24a;
+}
+
+/* line 2128, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.cln_drty_indctr ul li:nth-child(2):after {
+  background-color: #ec7a7a;
+}
+
+/* line 2131, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.cln_drty_indctr ul li:nth-child(2) span {
+  color: #ec7a7a;
+}
+
+/* line 2136, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.cln_drty_indctr ul li:nth-child(3):after {
+  background-color: #f6ae58;
+}
+
+/* line 2139, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.cln_drty_indctr ul li:nth-child(3) span {
+  color: #f6ae58;
+}
+
+/* line 2143, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.cln_drty_indctr ul li span {
+  margin-left: 5px;
+  color: #8bc24a;
+  font-size: 1.1rem;
+}
+
+/* line 2152, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.room_trans_btn {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  justify-content: space-around;
+}
+
+/* line 2157, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.room_trans_btn button {
+  color: #7c7373;
+  width: 50px;
+  height: 50px;
+  padding: 0;
+  border-radius: 50%;
+}
+
+/* line 2163, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.room_trans_btn button i {
+  font-size: 50px;
+  line-height: 50px;
+}
+
+/* line 2167, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.room_trans_btn button:hover {
+  color: #104e7c;
+}
+
+/* line 2173, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.add_icn_sz {
+  font-size: 14px;
+}
+
+/* line 2177, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.title_blk.grp_title:after {
+  top: 22px;
+}
+
+/* line 2180, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.title_blk.grp_title .generic_checkbox .chck_bx_label {
+  background-color: #fff;
+}
+
+/* line 2183, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.title_blk.grp_title .generic_checkbox .chck_bx_label:after {
+  top: 4px;
+}
+
+/* line 2186, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.title_blk.grp_title .generic_checkbox .chck_bx_inp:checked + .chck_bx_label:after {
+  top: 3px;
+}
+
+/* line 2191, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.width_98 {
+  width: 98px;
+}
+
+/* line 2195, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.room_blck_del {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background-color: #ffffff;
+  padding: 0 !important;
+  border-radius: 50% !important;
+  float: right;
+  color: #7c7373;
+  box-shadow: inset 0 0 0 1px #efefef;
+}
+
+/* line 2205, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.room_blck_del:hover {
+  background-color: #00365c;
+  color: #ffffff;
+  box-shadow: inset 0 0 0 1px #00365c;
+}
+
+/* line 2212, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.call_out_panel_parnt, .call_out_panel_parnt02 {
+  width: 50%;
+  position: fixed;
+  height: 100%;
+  right: 0;
+  top: 0;
+  transition: all ease-in-out 0.5s;
+  transform: translateX(100%);
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  z-index: 999;
+}
+
+/* line 2226, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.call_out_panel_parnt .call_out_header, .call_out_panel_parnt02 .call_out_header {
+  width: 100%;
+  display: inline-block;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #efefef;
+  margin-bottom: 10px;
+}
+
+/* line 2233, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.call_out_panel_parnt.call_out_open, .call_out_panel_parnt02.call_out_open {
+  transform: translateX(0);
+}
+
+/* line 2236, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.call_out_panel_parnt .call_out_contnt, .call_out_panel_parnt02 .call_out_contnt {
+  flex: 1;
+}
+
+/* line 2239, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.call_out_panel_parnt .tab-content, .call_out_panel_parnt02 .tab-content {
+  overflow: hidden auto;
+}
+
+/* line 2244, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.call_out_panel_parnt .call_out_grp, .call_out_panel_parnt02 .call_out_grp {
+  border-bottom: 1px solid #efefef;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 2249, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.call_out_panel_parnt .nav-tabs, .call_out_panel_parnt02 .nav-tabs {
+  border-bottom: none;
+}
+
+/* line 2252, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.call_out_panel_parnt h2, .call_out_panel_parnt02 h2 {
+  font-size: 1.125rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* line 2259, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.panel_cls {
+  width: 40px;
+  height: 40px;
+  float: right;
+  padding: 0;
+  border-radius: 50%;
+  border: none;
+}
+
+/* line 2267, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.panel_cls i {
+  font-size: 24px;
+  color: #7c7373;
+}
+
+/* line 2271, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.panel_cls:hover, .panel_cls:focus {
+  background-color: #00365c;
+}
+
+/* line 2273, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.panel_cls:hover i, .panel_cls:focus i {
+  color: #ffffff;
+}
+
+/* line 2280, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.drp_dwn_wdth .dx-popup-content {
+  padding: 0 !important;
+}
+
+/* line 2283, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.drp_dwn_wdth .dx-popup-content > .dx-scrollable > .dx-scrollable-wrapper {
+  padding: 0 !important;
+}
+
+/* line 2287, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.rmg_lst_blk {
+  display: none;
+}
+
+/* line 2289, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.rmg_lst_blk.rmg_lst_parnt_mdl, .rmg_lst_blk.rmg_lst_opn {
+  display: block;
+}
+
+/* line 2293, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.rmg_lst_parnt_mdl {
+  width: 100%;
+}
+
+/* line 2295, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.rmg_lst_parnt_mdl .rmg_lst_inr {
+  padding: 0;
+  box-shadow: none;
+  margin: 0;
+}
+
+/* line 2300, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.rmg_lst_parnt_mdl .panel_cls i {
+  font-size: 24px;
+}
+
+/* line 2306, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.custm_modal_cls .modal-header, .custm_modal_cls .modal-body, .custm_modal_cls .modal-footer {
+  padding: 10px;
+}
+
+/* line 2309, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.custm_modal_cls .modal_cls_btn {
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  background: #fff url("data:image/svg+xml,<svg viewBox='0 0 16 16' fill='%23666' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' d='M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z' clip-rule='evenodd'/></svg>");
+  background-repeat: no-repeat;
+  background-size: 24px;
+  border-radius: 50%;
+  background-position: 8px;
+  opacity: 1;
+}
+
+/* line 2319, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.custm_modal_cls .modal_cls_btn:hover {
+  background: #00365c url("data:image/svg+xml,<svg viewBox='0 0 16 16' fill='%23fff' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' d='M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z' clip-rule='evenodd'/></svg>");
+  background-repeat: no-repeat;
+  background-size: 24px;
+  border-radius: 50%;
+  background-position: 8px;
+}
+
+/* line 2327, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.custm_modal_cls p {
+  margin-bottom: 0;
+}
+
+/* line 2330, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.custm_modal_cls.sucss_modal {
+  text-align: center;
+}
+
+/* line 2332, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.custm_modal_cls.sucss_modal .modal-header {
+  border-bottom: none;
+}
+
+/* line 2335, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.custm_modal_cls.sucss_modal .modal-body {
+  padding: 0 20px 45px 20px;
+}
+
+/* line 2338, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.custm_modal_cls.sucss_modal label {
+  font-size: 1.25rem;
+  display: block;
+  font-weight: 600;
+  line-height: 1.25rem;
+  margin-top: 10px;
+}
+
+/* line 2345, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.custm_modal_cls.sucss_modal i {
+  font-size: 50px;
+  line-height: 50px;
+  color: #008000;
+}
+
+/* line 2352, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.custm_modal_cls.warng_modal i {
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+  font-size: 40px;
+}
+
+/* line 2357, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.custm_modal_cls.warng_modal i::before {
+  margin: 0;
+}
+
+/* line 2362, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.custm_modal_cls.rmg_lst_modal {
+  overflow: hidden;
+}
+
+/* line 2364, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.custm_modal_cls.rmg_lst_modal .rmg_lst_inr {
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 2374, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.custm_modal_cls.rmg_lst_modal .dx-datagrid-pager.dx-pager {
+  width: 100%;
+  position: fixed;
+  background: #fff;
+  bottom: 0;
+  left: 0;
+  padding-right: 10px;
+}
+
+/* line 2382, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.custm_modal_cls.rmg_lst_modal .button_blk.blk_pstn_abslt.button_wthout_bg {
+  position: fixed;
+  width: auto;
+}
+
+/* line 2386, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.custm_modal_cls.rmg_lst_modal .dx-datagrid-rowsview.dx-datagrid-nowrap {
+  height: calc(100vh - 150px);
+  overflow: auto;
+}
+
+/* line 2392, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.rmg_lst_inr {
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.2);
+  padding: 5px 5px 0;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+/* line 2397, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.rmg_lst_inr .grp_title.multpl_btns {
+  margin-bottom: 10px;
+}
+
+/* line 2399, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.rmg_lst_inr .grp_title.multpl_btns .grp_lft_blk {
+  display: flex;
+  align-items: center;
+}
+
+/* line 2402, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.rmg_lst_inr .grp_title.multpl_btns .grp_lft_blk > label {
+  background-color: transparent;
+  padding: 0;
+  line-height: normal;
+}
+
+/* line 2407, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.rmg_lst_inr .grp_title.multpl_btns .grp_lft_blk .generic_checkbox {
+  margin-bottom: 0;
+  padding: 0 !important;
+  margin-left: 10px;
+}
+
+/* line 2411, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.rmg_lst_inr .grp_title.multpl_btns .grp_lft_blk .generic_checkbox .chck_bx_inp {
+  top: 1px;
+}
+
+/* line 2414, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.rmg_lst_inr .grp_title.multpl_btns .grp_lft_blk .generic_checkbox .chck_bx_label {
+  font-size: 0.875rem;
+  color: #000000;
+  font-weight: 400;
+  line-height: normal;
+  padding-right: 0;
+}
+
+/* line 2423, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.rmg_lst_inr .grp_title.multpl_btns::after {
+  display: none;
+}
+
+/* line 2427, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.rmg_lst_inr .grp_title_multpl_btn {
+  background: transparent;
+  border: none;
+  display: flex;
+  height: 35px;
+}
+
+/* line 2432, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.rmg_lst_inr .grp_title_multpl_btn button {
+  width: 35px;
+  height: 35px;
+  margin-right: 5px;
+}
+
+/* line 2440, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.grd_parnt_blk .demo-container {
+  width: 100%;
+  overflow: auto;
+}
+
+/* line 2445, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.grp_title_multpl_btn {
+  background: #fff;
+  border-radius: 25px;
+  position: relative;
+  padding: 2px;
+  height: 40px;
+  border: 1px solid #efefef;
+}
+
+/* line 2453, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.grp_title_multpl_btn button {
+  width: 35px;
+  height: 35px;
+  top: 0;
+  box-shadow: none;
+  padding: 0;
+  float: none;
+}
+
+/* line 2460, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.grp_title_multpl_btn button .bi-plus {
+  font-size: 25px;
+  line-height: 25px;
+}
+
+/* line 2464, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.grp_title_multpl_btn button:last-child {
+  margin-right: 0;
+}
+
+/* line 2467, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.grp_title_multpl_btn button:hover, .grp_title_multpl_btn button:focus {
+  background-color: #00365c;
+  color: #fff;
+}
+
+/* line 2472, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.grp_title_multpl_btn .list_view_tgl {
+  height: 35px;
+  background-color: #ffffff;
+  border-radius: 50% !important;
+  color: #7c7373;
+}
+
+/* line 2477, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.grp_title_multpl_btn .list_view_tgl.list_view_on {
+  background-color: #00365c;
+}
+
+/* line 2479, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.grp_title_multpl_btn .list_view_tgl.list_view_on i {
+  color: #fff;
+}
+
+/* line 2487, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.rmg_lst_blk.rmg_lst_opn02 {
+  display: block;
+}
+
+/* line 2491, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.grp_title_multpl_btn button.list_view_tgl:focus {
+  background-color: #fff;
+  color: #7c7373;
+}
+
+/* line 2495, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.grp_title_multpl_btn button.list_view_tgl.list_view_on:focus {
+  background-color: #00365c;
+}
+
+/* line 2498, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.search_grd_padg00 {
+  padding: 0 7px !important;
+}
+
+/* line 2502, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.room_grid_view {
+  display: block;
+}
+
+/* line 2504, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.room_grid_view.grid_view_inactive {
+  display: none;
+}
+
+/* line 2508, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.room_list_view {
+  display: none;
+}
+
+/* line 2510, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.room_list_view.list_view_active {
+  display: block;
+}
+
+/* line 2516, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.room_blk_sectn .master-detail-caption {
+  margin-bottom: 10px;
+}
+
+/* line 2519, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.room_blk_sectn .dx-popup-content {
+  padding: 0 !important;
+}
+
+/* line 2521, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.room_blk_sectn .dx-popup-content .dx-scrollable-wrapper {
+  padding: 0 !important;
+}
+
+/* Hide builtin progress bar */
+/* line 2529, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.custom-progress + .uploadcare--widget .uploadcare--widget__progress {
+  display: none !important;
+}
+
+/* line 2532, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.meter {
+  height: 25px;
+  position: relative;
+  display: block;
+  margin: 10px 0;
+}
+
+/* line 2538, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.meter > span {
+  position: relative;
+  display: block;
+  width: 0;
+  height: 100%;
+  border-radius: 8px;
+  background-color: #2bc253;
+  background-image: linear-gradient(to top, #2bc253 37%, #54f054 69%);
+  box-shadow: inset 0 2px 9px rgba(255, 255, 255, 0.3), inset 0 -2px 6px rgba(0, 0, 0, 0.4);
+  transition: width 0.25s;
+}
+
+/* line 2554, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.meter > span:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%);
+  z-index: 1;
+  background-size: 50px 50px;
+  -webkit-animation: meter-move 2s linear infinite;
+  animation: meter-move 2s linear infinite;
+  border-radius: 8px;
+}
+
+@-webkit-keyframes meter-move {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 50px 50px;
+  }
+}
+
+@keyframes meter-move {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 50px 50px;
+  }
+}
+
+/* line 2593, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.scrh_btn_main {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  top: 10px;
+  margin-bottom: 15px;
+}
+
+/* line 2599, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.scrh_btn_main button {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  padding: 8px;
+  background-color: #4D5760;
+  border-color: #4D5760;
+}
+
+/* line 2610, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.showIcon, .printIcon, .modifyIcon, .grpcheckinIcon, .locationIcon, .depositIcon, .searchIcon, .messageIcon, .tickIcon, .infoIcon, .importIcon, .docinfoIcon, .delIcon, .addofferIcon, .offerusageIcon {
+  display: inline-block;
+  padding: 2px 4px;
+  margin-right: 5px;
+  width: 24px;
+  height: 24px;
+}
+
+/* line 2618, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.offerusage_icn {
+  width: 15px;
+  height: 15px;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%238e9ba7' class='bi bi-person-lines-fill' viewBox='0 0 16 16'%3e%3cpath d='M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-5 6s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zM11 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5zm.5 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1h-4zm2 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2zm0 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2z'/%3e%3c/svg%3e");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+/* line 2626, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.dx-datagrid .dx-column-lines > td:last-child a:hover .offerusage_icn {
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%23135B8F' class='bi bi-person-lines-fill' viewBox='0 0 16 16'%3e%3cpath d='M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-5 6s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zM11 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5zm.5 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1h-4zm2 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2zm0 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2z'/%3e%3c/svg%3e");
+}
+
+/* line 2629, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.addoffer_icn {
+  width: 15px;
+  height: 15px;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%238e9ba7' class='bi bi-person-plus-fill' viewBox='0 0 16 16'%3e%3cpath d='M1 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z'/%3e%3cpath fill-rule='evenodd' d='M13.5 5a.5.5 0 0 1 .5.5V7h1.5a.5.5 0 0 1 0 1H14v1.5a.5.5 0 0 1-1 0V8h-1.5a.5.5 0 0 1 0-1H13V5.5a.5.5 0 0 1 .5-.5z'/%3e%3c/svg%3e");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+/* line 2637, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.dx-datagrid .dx-column-lines > td:last-child a:hover .addoffer_icn {
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%23135B8F' class='bi bi-person-plus-fill' viewBox='0 0 16 16'%3e%3cpath d='M1 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z'/%3e%3cpath fill-rule='evenodd' d='M13.5 5a.5.5 0 0 1 .5.5V7h1.5a.5.5 0 0 1 0 1H14v1.5a.5.5 0 0 1-1 0V8h-1.5a.5.5 0 0 1 0-1H13V5.5a.5.5 0 0 1 .5-.5z'/%3e%3c/svg%3e");
+}
+
+/* line 2640, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.delgrd_icn {
+  width: 15px;
+  height: 15px;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%238e9ba7' class='bi bi-trash' viewBox='0 0 16 16'%3e%3cpath d='M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z'/%3e%3cpath fill-rule='evenodd' d='M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z'/%3e%3c/svg%3e");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+/* line 2649, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.dx-datagrid .dx-column-lines > td:last-child a:hover .delgrd_icn {
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%23135B8F' class='bi bi-trash' viewBox='0 0 16 16'%3e%3cpath d='M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z'/%3e%3cpath fill-rule='evenodd' d='M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z'/%3e%3c/svg%3e");
+}
+
+/* line 2652, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.importgrd_icn {
+  width: 15px;
+  height: 15px;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3c?xml version='1.0' ?%3e%3csvg data-name='Layer 2' id='bdd05811-e15d-428c-bb53-8661459f9307' viewBox='0 0 35 35' fill='%238e9ba7' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M17.5,22.131a1.249,1.249,0,0,1-1.25-1.25V2.187a1.25,1.25,0,0,1,2.5,0V20.881A1.25,1.25,0,0,1,17.5,22.131Z'/%3e%3cpath d='M17.5,22.693a3.189,3.189,0,0,1-2.262-.936L8.487,15.006a1.249,1.249,0,0,1,1.767-1.767l6.751,6.751a.7.7,0,0,0,.99,0l6.751-6.751a1.25,1.25,0,0,1,1.768,1.767l-6.752,6.751A3.191,3.191,0,0,1,17.5,22.693Z'/%3e%3cpath d='M31.436,34.063H3.564A3.318,3.318,0,0,1,.25,30.749V22.011a1.25,1.25,0,0,1,2.5,0v8.738a.815.815,0,0,0,.814.814H31.436a.815.815,0,0,0,.814-.814V22.011a1.25,1.25,0,1,1,2.5,0v8.738A3.318,3.318,0,0,1,31.436,34.063Z'/%3e%3c/svg%3e");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+/* line 2661, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.dx-datagrid .dx-column-lines > td:last-child a:hover .importgrd_icn {
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3c?xml version='1.0' ?%3e%3csvg data-name='Layer 2' id='bdd05811-e15d-428c-bb53-8661459f9307' viewBox='0 0 35 35' fill='%23135B8F' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M17.5,22.131a1.249,1.249,0,0,1-1.25-1.25V2.187a1.25,1.25,0,0,1,2.5,0V20.881A1.25,1.25,0,0,1,17.5,22.131Z'/%3e%3cpath d='M17.5,22.693a3.189,3.189,0,0,1-2.262-.936L8.487,15.006a1.249,1.249,0,0,1,1.767-1.767l6.751,6.751a.7.7,0,0,0,.99,0l6.751-6.751a1.25,1.25,0,0,1,1.768,1.767l-6.752,6.751A3.191,3.191,0,0,1,17.5,22.693Z'/%3e%3cpath d='M31.436,34.063H3.564A3.318,3.318,0,0,1,.25,30.749V22.011a1.25,1.25,0,0,1,2.5,0v8.738a.815.815,0,0,0,.814.814H31.436a.815.815,0,0,0,.814-.814V22.011a1.25,1.25,0,1,1,2.5,0v8.738A3.318,3.318,0,0,1,31.436,34.063Z'/%3e%3c/svg%3e");
+}
+
+/* line 2664, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.docinfogrd_icn {
+  width: 15px;
+  height: 15px;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3c?xml version='1.0' ?%3e%3csvg enable-background='new 0 0 32 32' height='32px' id='svg2' version='1.1' viewBox='0 0 32 32' width='32px' xml:space='preserve' xmlns='http://www.w3.org/2000/svg' xmlns:cc='http://creativecommons.org/ns%23' xmlns:dc='http://purl.org/dc/elements/1.1/' xmlns:inkscape='http://www.inkscape.org/namespaces/inkscape' xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns%23' xmlns:sodipodi='http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd' xmlns:svg='http://www.w3.org/2000/svg'%3e%3cg id='background'%3e%3crect fill='none' height='32' width='32'/%3e%3c/g%3e%3cg id='document_x5F_text_x5F_information'%3e%3cpath fill='%238e9ba7' d='M24,14.059V5.584L18.414,0H0v32h24v-0.059c4.499-0.5,7.998-4.309,8-8.941C31.998,18.366,28.499,14.556,24,14.059z M17.998,2.413L21.586,6h-3.588V2.413z M2,30V1.998h14v6.001h6v6.06c-1.752,0.194-3.352,0.89-4.652,1.941H4v2h11.517 c-0.412,0.616-0.743,1.289-0.994,2H4v2h10.059C14.022,22.329,14,22.661,14,23c0,2.829,1.308,5.351,3.349,7H2z M23,29.883 c-3.801-0.009-6.876-3.084-6.884-6.883c0.008-3.801,3.083-6.876,6.884-6.885c3.799,0.009,6.874,3.084,6.883,6.885 C29.874,26.799,26.799,29.874,23,29.883z M20,12H4v2h16V12z'/%3e%3cpath fill='%238e9ba7' d='M22,28h2v-6h-2V28z M22,18v2h2v-2H22z'/%3e%3c/g%3e%3c/svg%3e");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+/* line 2673, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.dx-datagrid .dx-column-lines > td:last-child a:hover .docinfogrd_icn {
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3c?xml version='1.0' ?%3e%3csvg enable-background='new 0 0 32 32' height='32px' id='svg2' version='1.1' viewBox='0 0 32 32' width='32px' xml:space='preserve' xmlns='http://www.w3.org/2000/svg' xmlns:cc='http://creativecommons.org/ns%23' xmlns:dc='http://purl.org/dc/elements/1.1/' xmlns:inkscape='http://www.inkscape.org/namespaces/inkscape' xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns%23' xmlns:sodipodi='http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd' xmlns:svg='http://www.w3.org/2000/svg'%3e%3cg id='background'%3e%3crect fill='none' height='32' width='32'/%3e%3c/g%3e%3cg id='document_x5F_text_x5F_information'%3e%3cpath fill='%23135B8F' d='M24,14.059V5.584L18.414,0H0v32h24v-0.059c4.499-0.5,7.998-4.309,8-8.941C31.998,18.366,28.499,14.556,24,14.059z M17.998,2.413L21.586,6h-3.588V2.413z M2,30V1.998h14v6.001h6v6.06c-1.752,0.194-3.352,0.89-4.652,1.941H4v2h11.517 c-0.412,0.616-0.743,1.289-0.994,2H4v2h10.059C14.022,22.329,14,22.661,14,23c0,2.829,1.308,5.351,3.349,7H2z M23,29.883 c-3.801-0.009-6.876-3.084-6.884-6.883c0.008-3.801,3.083-6.876,6.884-6.885c3.799,0.009,6.874,3.084,6.883,6.885 C29.874,26.799,26.799,29.874,23,29.883z M20,12H4v2h16V12z'/%3e%3cpath fill='%23135B8F' d='M22,28h2v-6h-2V28z M22,18v2h2v-2H22z'/%3e%3c/g%3e%3c/svg%3e");
+}
+
+/* line 2676, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.printgrd_icn {
+  width: 15px;
+  height: 15px;
+  background-image: url("data:image/svg+xml,<svg viewBox='0 0 16 16' fill='%238e9ba7' xmlns='http://www.w3.org/2000/svg'><path d='M5 1a2 2 0 0 0-2 2v1h10V3a2 2 0 0 0-2-2H5zm6 8H5a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1z'/><path d='M0 7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2h-1v-2a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v2H2a2 2 0 0 1-2-2V7zm2.5 1a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1z' clip-rule='evenodd'/></svg>");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+/* line 2685, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.dx-datagrid .dx-column-lines > td:last-child a:hover .printgrd_icn {
+  background-image: url("data:image/svg+xml,<svg viewBox='0 0 16 16' fill='%23135B8F' xmlns='http://www.w3.org/2000/svg'><path d='M5 1a2 2 0 0 0-2 2v1h10V3a2 2 0 0 0-2-2H5zm6 8H5a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1z'/><path d='M0 7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2h-1v-2a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v2H2a2 2 0 0 1-2-2V7zm2.5 1a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1z' clip-rule='evenodd'/></svg>");
+}
+
+/* line 2689, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.infogrd_icn {
+  width: 18px;
+  height: 15px;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3c?xml version='1.0' ?%3e%3csvg baseProfile='tiny' height='24px' id='Layer_1' version='1.2' viewBox='0 0 24 24' fill='%238e9ba7' width='24px' xml:space='preserve' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3e%3cg%3e%3cpath d='M13.839,17.525c-0.006,0.002-0.559,0.186-1.039,0.186c-0.265,0-0.372-0.055-0.406-0.079c-0.168-0.117-0.48-0.336,0.054-1.4 l1-1.994c0.593-1.184,0.681-2.329,0.245-3.225c-0.356-0.733-1.039-1.236-1.92-1.416C11.456,9.532,11.134,9.5,10.815,9.5 c-1.849,0-3.094,1.08-3.146,1.126c-0.179,0.158-0.221,0.42-0.102,0.626c0.12,0.206,0.367,0.3,0.595,0.222 c0.005-0.002,0.559-0.187,1.039-0.187c0.263,0,0.369,0.055,0.402,0.078c0.169,0.118,0.482,0.34-0.051,1.402l-1,1.995 c-0.594,1.185-0.681,2.33-0.245,3.225c0.356,0.733,1.038,1.236,1.921,1.416c0.314,0.063,0.636,0.097,0.954,0.097 c1.85,0,3.096-1.08,3.148-1.126c0.179-0.157,0.221-0.42,0.102-0.626C14.312,17.543,14.063,17.451,13.839,17.525z'/%3e%3ccircle cx='13' cy='6.001' r='2.5'/%3e%3c/g%3e%3c/svg%3e");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+/* line 2698, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.dx-datagrid .dx-column-lines > td:last-child a:hover .infogrd_icn {
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3c?xml version='1.0' ?%3e%3csvg baseProfile='tiny' height='24px' id='Layer_1' version='1.2' viewBox='0 0 24 24' fill='%23135B8F' width='24px' xml:space='preserve' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3e%3cg%3e%3cpath d='M13.839,17.525c-0.006,0.002-0.559,0.186-1.039,0.186c-0.265,0-0.372-0.055-0.406-0.079c-0.168-0.117-0.48-0.336,0.054-1.4 l1-1.994c0.593-1.184,0.681-2.329,0.245-3.225c-0.356-0.733-1.039-1.236-1.92-1.416C11.456,9.532,11.134,9.5,10.815,9.5 c-1.849,0-3.094,1.08-3.146,1.126c-0.179,0.158-0.221,0.42-0.102,0.626c0.12,0.206,0.367,0.3,0.595,0.222 c0.005-0.002,0.559-0.187,1.039-0.187c0.263,0,0.369,0.055,0.402,0.078c0.169,0.118,0.482,0.34-0.051,1.402l-1,1.995 c-0.594,1.185-0.681,2.33-0.245,3.225c0.356,0.733,1.038,1.236,1.921,1.416c0.314,0.063,0.636,0.097,0.954,0.097 c1.85,0,3.096-1.08,3.148-1.126c0.179-0.157,0.221-0.42,0.102-0.626C14.312,17.543,14.063,17.451,13.839,17.525z'/%3e%3ccircle cx='13' cy='6.001' r='2.5'/%3e%3c/g%3e%3c/svg%3e");
+}
+
+/* line 2702, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.modify_icn {
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  background-image: url("data:image/svg+xml,<svg viewBox='0 0 16 16' fill='%23828b94' xmlns='http://www.w3.org/2000/svg'><path d='M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z'/><path d='M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z' clip-rule='evenodd'/></svg>");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* line 2711, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.title_blk {
+  display: flex;
+  align-items: center;
+}
+
+/* line 2715, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.barcode_scn {
+  border: 1px solid #135B8F;
+  height: 40px;
+  padding: 5px;
+  background-color: #f1f9ff;
+  border-radius: 5px;
+  display: inline-block;
+  width: 250px;
+  font-size: 1rem;
+}
+
+/* line 2725, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.barcode_scn::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #135B8F;
+  opacity: 1;
+  /* Firefox */
+}
+
+/* line 2730, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.barcode_scn:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #135B8F;
+}
+
+/* line 2734, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.barcode_scn::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #135B8F;
+}
+
+/* line 2737, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.barcode_scn::-webkit-outer-spin-button,
+.barcode_scn::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* line 2742, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.barcode_scn[type=number] {
+  -moz-appearance: textfield;
+}
+
+/* line 2745, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.grd_add_btn {
+  padding: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: auto;
+  color: #6c757d;
+}
+
+/* line 2752, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.grd_add_btn i {
+  font-size: 39px;
+  line-height: 40px;
+}
+
+/* line 2756, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.grd_add_btn:hover {
+  color: #5d6770;
+}
+
+/* line 2760, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.advnc_scrh_blk {
+  border: 1px solid #cbd9e3;
+  padding: 15px 70px 15px 15px;
+  border-radius: 5px;
+  position: relative;
+  background-color: #fbfbfb;
+}
+
+/* line 2766, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.advnc_scrh_blk .srch_btn {
+  position: absolute;
+  top: 0;
+  right: 15px;
+  content: "";
+  width: 40px;
+  height: 40px;
+  margin: auto;
+  bottom: 0;
+}
+
+/* line 2777, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.srch_btn {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background-color: #135B8F;
+  padding: 0;
+  border-radius: 50%;
+  border: none;
+}
+
+/* line 2785, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.srch_btn i {
+  font-size: 21px;
+  color: #ffffff;
+}
+
+/* line 2789, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.srch_btn:hover, .srch_btn:focus, .srch_btn:active {
+  background-color: #00365c;
+}
+
+/* line 2793, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.btn-check:checked + .btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check) + .btn:active {
+  background-color: #00365c !important;
+  color: #fff !important;
+}
+
+/* line 2797, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.btn-check:focus + .btn, .btn:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.2);
+  background-color: #00365c;
+}
+
+/* line 2803, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.loading {
+  display: none !important;
+}
+
+/* line 2806, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.print_btn_cls {
+  font-size: 0.9rem;
+  position: relative;
+  top: 1px;
+}
+
+/* line 2811, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.clear_btn_cls {
+  font-size: 0.9rem;
+  position: relative;
+  top: 1px;
+}
+
+/* line 2817, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.dsbld_drpdwn select {
+  background-color: transparent;
+  color: #97a3a5 !important;
+  border-bottom: 1px solid #dddfdf !important;
+  background-image: none !important;
+}
+
+/* line 2823, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.dsbld_drpdwn label {
+  color: #97a3a5 !important;
+}
+
+/* line 2828, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.change_passwrd .fill_inp_blk {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* line 2834, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.change_passwrd .fill_inp_blk label {
+  font-size: 1rem;
+  color: #000000;
+  flex: 1;
+}
+
+/* line 2839, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.change_passwrd .fill_inp_blk input {
+  border: none;
+  flex: 1;
+  font-size: 1rem;
+  background-color: #efefef;
+  height: 35px;
+  padding: 0 5px;
+}
+
+/* line 2848, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.date_wtout_label input {
+  padding-top: 19px;
+}
+
+/* line 2852, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.demo-container.dev_grd_blk.day_wise_clr .dx-datagrid-headers .dx-datagrid-table .dx-row > td:nth-child(n + 4),
+.demo-container.dev_grd_blk.day_wise_clr .dx-header-row.dx-column-lines > td:nth-child(n + 4) > .dx-datagrid-text-content {
+  background-color: #c4def2;
+}
+
+/* line 2856, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.grd_parnt_pstn {
+  position: relative;
+}
+
+/* line 2862, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.demo-container.dev_grd_blk .dx-datagrid-headers .dx-datagrid-table .dx-row > td, .dx-datagrid-headers .dx-header-row.dx-column-lines > td > .dx-datagrid-text-content, .dx-datagrid-headers .dx-datagrid-table .dx-row > td {
+  background-color: #d4e8f7;
+}
+
+/* line 2866, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.demo-container.dev_grd_blk .dx-datagrid-headers .dx-datagrid-table .dx-row > td.grd_date:before {
+  display: none;
+}
+
+/* line 2869, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.dx-row.dx-column-lines.dx-header-row, .dx-row.dx-data-row.dx-row-lines.dx-column-lines, .dx-row.dx-data-row.dx-column-lines {
+  height: 40px;
+}
+
+/* line 2872, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.dx-datagrid .dx-row > td {
+  padding: 2px 10px !important;
+}
+
+/* line 2875, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.dx-datagrid-content .dx-datagrid-table .dx-row > td, .dx-datagrid-content .dx-datagrid-table .dx-row > tr > td {
+  vertical-align: middle !important;
+}
+
+/* line 2878, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.dx-pager .dx-pages .dx-selection, .dx-pager .dx-page-sizes .dx-selection {
+  background: #135B8F !important;
+  color: #ffffff !important;
+}
+
+/* line 2883, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.demo-container.dev_grd_blk .dx-datagrid-headers .dx-datagrid-table .dx-row > td, .dx-datagrid-headers .dx-datagrid-table .dx-row > td {
+  padding: 10px !important;
+  height: 40px;
+}
+
+/* line 2888, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.dx-datagrid-checkbox-size {
+  padding-bottom: 0 !important;
+}
+
+/* line 2891, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.dx-datagrid-checkbox-size.dx-widget.dx-checkbox .dx-checkbox-container .dx-checkbox-icon:after {
+  display: none !important;
+}
+
+/* line 2895, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.dx-checkbox-checked .dx-checkbox-icon:before {
+  content: "\F271" !important;
+  font-family: Bootstrap-icons !important;
+  color: #135B8F;
+  font-size: 21px;
+  line-height: 19px;
+  left: -2px !important;
+  top: 0 !important;
+  margin: 0 auto !important;
+  width: 18px !important;
+  height: 18px !important;
+}
+
+/* line 2907, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.dx-datagrid-checkbox-size.dx-widget.dx-checkbox.dx-checkbox-checked .dx-checkbox-container .dx-checkbox-icon {
+  background: #fff !important;
+}
+
+/* line 2910, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.dx-checkbox-icon {
+  border: none !important;
+}
+
+/* line 2915, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.import_file_parnt {
+  display: flex;
+  align-items: center;
+}
+
+/* line 2918, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.import_file_parnt .btn-check:focus + .btn, .import_file_parnt .btn:focus, .import_file_parnt .btn:hover {
+  background-color: transparent;
+  color: #135B8F;
+}
+
+/* line 2923, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.impt_downld_file {
+  padding: 0;
+  position: relative;
+  font-size: 0.875rem;
+  border-radius: 0;
+}
+
+/* line 2928, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.impt_downld_file i {
+  margin-right: 3px;
+}
+
+/* line 2932, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.upld_file_blk {
+  position: relative;
+  display: inline-block;
+}
+
+/* line 2937, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.divider {
+  width: 1px;
+  height: 15px;
+  background-color: #d2d2d2;
+  margin: 0 10px;
+}
+
+/* line 2944, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.upld_new01 {
+  position: relative;
+}
+
+/* line 2946, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.upld_new01 .file-return {
+  top: 0 !important;
+  left: 110px !important;
+  right: auto !important;
+  margin: 0 !important;
+  white-space: nowrap;
+}
+
+/* line 2955, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.input_file_css {
+  padding: 0;
+  position: relative;
+  z-index: 2;
+  font-size: 0.875rem;
+}
+
+/* line 2962, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.input-file-trigger:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.2);
+  outline: none;
+}
+
+/* line 2966, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.input-file-container {
+  position: relative;
+}
+
+/* line 2969, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.js .input-file-trigger {
+  width: 100%;
+  display: inline-block;
+  position: relative;
+  padding: 0 5px 0 15px;
+  transition: all .4s;
+  cursor: pointer;
+  font-weight: normal !important;
+  margin: 0;
+}
+
+/* line 2978, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.js .input-file-trigger:after {
+  position: absolute;
+  content: " \F4B3";
+  font-family: "bootstrap-icons";
+  font-size: 16px;
+  line-height: 20px;
+  left: 0;
+  top: 0;
+  display: inline-block;
+}
+
+/* line 2991, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.js .input-file {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 225px;
+  opacity: 0;
+  padding: 14px 0;
+  cursor: pointer;
+  font-size: 0.875rem !important;
+}
+
+/* line 3008, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.file-return {
+  margin: 0;
+  background: transparent !important;
+  border-bottom: none !important;
+  padding: 0 !important;
+  position: absolute !important;
+  right: 70px;
+  top: 6px;
+  font-size: 13px !important;
+}
+
+/* line 3017, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.file-return:after {
+  display: none;
+}
+
+/* line 3022, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.file-return:not(:empty) {
+  margin: 1em 0;
+}
+
+/* line 3025, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.js .file-return {
+  font-style: italic;
+  font-size: .9em;
+  font-weight: bold;
+}
+
+/* line 3030, ../../Users/ISGUSER27/Desktop/work/Pos/pos_new/assets/stylesheets/scss/preset.scss */
+.js .file-return:not(:empty):before {
+  content: "Selected file: ";
+  font-weight: normal;
+  font-size: 0.875rem;
+}
+
+/*# sourceMappingURL=preset.css.map */
