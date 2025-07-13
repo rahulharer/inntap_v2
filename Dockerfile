@@ -6,6 +6,6 @@ COPY nginx.conf /etc/nginx/conf.d/default.conf
 # Copy built app contents directly into Nginx web root
 COPY /. /usr/share/nginx/html/
 
-EXPOSE 9009
+EXPOSE 9019
 
 CMD ["nginx", "-g", "daemon off;"]
